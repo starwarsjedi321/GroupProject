@@ -1,8 +1,11 @@
+import React from 'react';
 // Run npm install react-router-dom if you have issues with npm start 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/layoutComponent';
 import './styles/layout.css';
 import Buyerform from './components/Buyerform';
+// Import page components below
+import PropertyForm from './components/propertyForm.js';
 
 function App() {
   return (
@@ -23,7 +26,7 @@ function App() {
             />
             <Route
             path="properties"
-            element={<>properties test</>}
+            element={<PropertyForm/>}
             />
             <Route
             path="about-us"

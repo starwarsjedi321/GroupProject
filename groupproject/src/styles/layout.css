@@ -41,10 +41,46 @@ li a:hover {
 main {
     flex: auto;
     background-color: lightblue;
-    padding: 0 25% 0 25%;
+    padding: 0 15% 0 15%;
 }
 
-footer {
-    background-color: beige;
-    min-height: 5%; /* Added this attribute to display footer until content is merged in */
+.sectionOne {
+    flex: auto;
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+div.footer {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    align-items: center;
+    background-color: rgb(143, 229, 235);
+}
+
+div.icons {
+    display: block;
+} 
+
+div.icons img {
+    height: 3em;
+    width: 3em;
+    padding-top: 10px;
+    padding-right: 8px;
+    filter: brightness(0) invert(0.5);
+    transition: 0.1s;
+}
+img:hover {
+    filter: brightness(0) invert(0);
+    height: 3.2em;
+    width: 3.2em;
+}
+
+p {
+    width: max-content;
+    justify-content: center;
 }
