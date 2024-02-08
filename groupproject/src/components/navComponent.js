@@ -20,10 +20,10 @@ const Navbar = () => {
           <Link to="/properties">Properties</Link>
         </li>
         <li>
-            <Link to="">About us</Link>
+            <Link to="/about-us">About us</Link>
         </li>
         <li>
-            <Link to="">Sign in</Link>
+            <Link to="/sign-in">Sign in</Link>
         </li>
     </nav>
   )
