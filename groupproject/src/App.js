@@ -26,11 +26,11 @@ function App() {
             />
             <Route
             path="about-us"
-            element={<></>}
+            element={<>about us</>}
             />
             <Route
             path="sign-in"
-            element={<></>}
+            element={<>sign in</>}
             />
           </Route>
         </Routes>
