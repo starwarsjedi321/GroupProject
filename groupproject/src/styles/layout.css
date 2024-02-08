@@ -11,11 +11,6 @@ nav, main {
     display: flex;
 }
 
-/* body {
-    padding: 0;
-    margin: 0;
-} */
-
 .App-header {
     flex-direction: column;
 }
