@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/layoutComponent';
 import './styles/layout.css';
+import SellerForm from './components/Sellerform';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             {/* Nested paths for each page component (E.g. Buyer / Seller pages) */}
             <Route 
             path="register-seller"
-            element={<>seller test</>}
+            element={<SellerForm/>}
             />
             <Route
             path="register-buyer"
