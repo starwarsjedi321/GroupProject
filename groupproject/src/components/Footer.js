@@ -1,11 +1,11 @@
 import { React } from 'react';
-import './styles/Footer.css';
-import fb from './Images/facebook.png';
-import x from './Images/x.png';
-import insta from './Images/insta.png';
-import li from './Images/linkedin.png';
+import '../styles/Footer.css';
+import fb from '../Images/facebook.png';
+import x from '../Images/x.png';
+import insta from '../Images/insta.png';
+import li from '../Images/linkedin.png';
 
-function Footer () {
+const Footer = () => {
     return (
         <div className="footer">
             <div className="icons">
