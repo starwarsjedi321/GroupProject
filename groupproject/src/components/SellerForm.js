@@ -7,34 +7,43 @@ export default function SellerForm (){
 
 const handelSubmit = (event) =>{
     event.preventDefault();
-    console.log(inputs);
+    const data = new FormData(event.target);
+    const inputs = Object .fromEntries(data.entries());
+    console.log({inputs});
 }
+const form = document.querySelector("form");
+form.addEventListener("submit", handleSubmit);
+
 return(
     <form>
         <fieldset>
             <legend> Seller</legend>
-            <label> Please enter your first name:
+            <label for="firstName"> Please enter your first name:
                 <input 
                     type = "text"
                     name = "firstName"
+                    id ="firstName"
                 />
             </label> 
-            <label> Please enter your Last name:
+            <label for ="lastName"> Please enter your Last name:
                 <input
                  type = "text"
                  name = "lastName"
+                 id ="lastName"
                 />
             </label>
-            <label>Please enter your email:
+            <label for = "email">Please enter your email:
                 <input
-                type = "text"
+                type = "email"
                 name = "email"
+                id ="email"
                 />
             </label>
-            <label> Please enter your telephone number:
+            <label for = "telephone"> Please enter your telephone number:
                 <input
                 type = "text"
                 name = "telephone"
+                id = "telephone"
                 />
             </label>
             <button onClick={handelSubmit}> Submit</button>
