@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/layoutComponent';
 import './styles/layout.css';
+import DisplayProperties from './components/DisplayProperties';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             />
             <Route
             path="properties"
-            element={<>properties test</>}
+            element={<DisplayProperties/>}
             />
             <Route
             path="about-us"
