@@ -1,0 +1,50 @@
+/* General CSS styles for the website */
+/* Common attributes are added in groups at the top */
+/* Specific attributes are added toward the end of the page */
+html, body, #root, .App, .App-header {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+nav, main {
+    display: flex;
+}
+
+.App-header {
+    flex-direction: column;
+}
+
+nav {
+    background-color: grey;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    gap: 1em;
+    padding: 0 1em 0 1em; 
+    align-items: center;
+}
+
+nav li:nth-child(2) {
+    flex: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+main {
+    flex: auto;
+    background-color: lightblue;
+    padding: 0 25% 0 25%;
+}
+
+footer {
+    background-color: beige;
+    min-height: 5%; /* Added this attribute to display footer until content is merged in */
+}
