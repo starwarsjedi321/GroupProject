@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/layoutComponent';
 import './styles/layout.css';
+import Buyerform from './components/Buyerform';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             />
             <Route
             path="register-buyer"
-            element={<>buyer test</>}
+            element= {[<Buyerform />]}
             />
             <Route
             path="properties"
