@@ -24,6 +24,14 @@ function App() {
             path="properties"
             element={<>properties test</>}
             />
+            <Route
+            path="about-us"
+            element={<></>}
+            />
+            <Route
+            path="sign-in"
+            element={<></>}
+            />
           </Route>
         </Routes>
         </BrowserRouter>
