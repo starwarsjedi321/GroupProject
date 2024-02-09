@@ -1,22 +1,22 @@
 import { React } from 'react';
 import { useState } from 'react';
 
-fetch('./Properties',
-{
-    method: "PUT",
-    body: JSON.stringify({a: 1, b: 2})
-})
-.then(function(res){ console.log(res) })
-.catch(function(res){ console.log(res) })
-
-
-let data = {};
+        let data;
 export default (properties) => {
     let [inputs, setInputs] = useState();
 
+    async function postData(url = '', data = {}) {
+        const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+              })
+              return response.json()
+            }
 
     function doInput(event) {
-        console.log(event.name);
         if (event.target.name) {
             let newData = { ...inputs }
             newData[event.target.name] = event.target.value;
@@ -27,9 +27,10 @@ export default (properties) => {
     return (
         <fieldset>
             <legend>Register Property</legend>
-            <form onInput={event => doInput(event)}>
+            <form action={event => doInput(event).then(
+                postData("http://localhost:3000/properties", {inputs}))}>
                 <p>Address:</p>
-                <label>First line: <input name="firstLine" value={properties.firstLine} />
+                <label>First line: <input name="firstLine" value={properties.address} />
                 </label>
                 <br></br>
                 <label>City: <input name="city" value={properties.city} />
@@ -37,10 +38,10 @@ export default (properties) => {
                 <br></br>
                 <label>Postcode: <input name="postcode" value={properties.postcode} /></label>
                 <br></br>
-                <label>Price: <input name="price" value={data.price} /></label>
+                <label>Price: <input name="price" value={properties.price} /></label>
                 <br></br>
                 <label>Type: </label>
-                <input type="search" list="typeList" value={data.type} />
+                <input type="search" list="typeList" value={properties.type} />
                 <datalist id="typeList">
                     <option>...</option>
                     <option>Detachted</option>
@@ -50,12 +51,13 @@ export default (properties) => {
                     <option>Bungalow</option>
                 </datalist>
                 <br></br>
-                <label>Bedrooms: <input name="bedrooms" value={data.bedrooms} /></label>
+                <label>Bedrooms: <input name="bedrooms" value={properties.bedrooms} /></label>
                 <br></br>
-                <label>Bathrooms: <input name="bathrooms" value={data.bathrooms} /></label>
+                <label>Bathrooms: <input name="bathrooms" value={properties.bathrooms} /></label>
                 <br></br>
-                <label>Garden: <input type="checkbox" name="garden" value={data.garden} /></label>
+                <label>Garden: <input type="checkbox" name="garden" value={properties.garden} /></label>
+                <input type="submit"/>
             </form>
-            <button> Register </button>
+            <button > Register </button>
         </fieldset>
             )}
