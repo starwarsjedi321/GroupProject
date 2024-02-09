@@ -1,8 +1,11 @@
+import React from 'react';
 // Run npm install react-router-dom if you have issues with npm start 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/layoutComponent';
 import './styles/layout.css';
 import DisplayProperties from './components/DisplayProperties';
+// Import page components below
+import PropertyForm from './components/propertyForm.js';
 
 function App() {
   return (
@@ -25,13 +28,14 @@ function App() {
             path="properties"
             element={<DisplayProperties/>}
             />
+            <Route path='register-property' element={<PropertyForm/>}></Route>
             <Route
             path="about-us"
-            element={<></>}
+            element={<>about us</>}
             />
             <Route
             path="sign-in"
-            element={<></>}
+            element={<>sign in</>}
             />
           </Route>
         </Routes>
