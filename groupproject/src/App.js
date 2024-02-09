@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/layoutComponent';
 import './styles/layout.css';
 import Buyerform from './components/Buyerform';
+import DisplayProperties from './components/DisplayProperties';
 // Import page components below
 import PropertyForm from './components/propertyForm.js';
 
@@ -26,8 +27,9 @@ function App() {
             />
             <Route
             path="properties"
-            element={<PropertyForm/>}
+            element={<DisplayProperties/>}
             />
+            <Route path='register-property' element={<PropertyForm/>}></Route>
             <Route
             path="about-us"
             element={<>about us</>}

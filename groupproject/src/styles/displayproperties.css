@@ -1,0 +1,22 @@
+
+.property-details {
+    display: flex;
+    margin-top: 5em;
+    flex-wrap: wrap;
+}
+
+.property-card {
+    border: 2px black solid;
+    margin: 0;
+    padding-bottom: 4em;
+}
+
+.property-item {
+    display: inline;
+    margin-left: 0.8em;
+}
+
+.property-img {
+    width: 20em;
+}
+
