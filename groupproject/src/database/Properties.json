@@ -1,6 +1,7 @@
 [
     {
-        "property-id": 1,
+        "property_id": 1,
+        "seller_id" : 1,
         "address": {
             "firstLine": "Bridgford Rd",
             "city": "West Bridgford",
@@ -24,7 +25,8 @@
         "garden": true
     },
     {
-        "property-id": 2,
+        "property_id": 2,
+        "seller_id" : 2,
         "address": {
             "firstLine": "Park Lane",
             "city": "London",
@@ -48,7 +50,8 @@
         "garden": false
     },
     {
-        "property-id": 3,
+        "property_id": 3,
+        "seller_id" : 3,
         "address": {
             "firstLine": "Elm Street",
             "city": "Springfield",
@@ -72,7 +75,8 @@
         "garden": true
     },
     {
-        "property-id": 4,
+        "property_id": 4,
+        "seller_id" : 4,
         "address": {
             "firstLine": "Ocean Avenue",
             "city": "Amityville",
@@ -96,7 +100,8 @@
         "garden": true
     },
     {
-        "property-id": 5,
+        "property_id": 5,
+        "seller_id" : 5,
         "address": {
             "firstLine": "123 Main St",
             "city": "Anytown",
@@ -120,7 +125,8 @@
         "garden": false
     },
     {
-        "property-id": 6,
+        "property_id": 6,
+        "seller_id" : 6,
         "address": {
             "firstLine": "Maple Avenue",
             "city": "Sunnydale",
@@ -144,7 +150,8 @@
         "garden": true
     },
     {
-        "property-id": 7,
+        "property_id": 7,
+        "seller_id" : 7,
         "address": {
             "firstLine": "Elm Street",
             "city": "Springwood",
@@ -168,7 +175,8 @@
         "garden": false
     },
     {
-        "property-id": 8,
+        "property_id": 8,
+        "seller_id" : 8,
         "address": {
             "firstLine": "Evergreen Terrace",
             "city": "Springfield",
@@ -192,7 +200,8 @@
         "garden": true
     },
     {
-        "property-id": 9,
+        "property_id": 9,
+        "seller_id" : 9,
         "address": {
             "firstLine": "742 Evergreen Terrace",
             "city": "Springfield",
@@ -216,7 +225,8 @@
         "garden": true
     },
     {
-        "property-id": 10,
+        "property_id": 10,
+        "seller_id" : 10,
         "address": {
             "firstLine": "Sherlock Holmes St",
             "city": "London",
@@ -240,7 +250,8 @@
         "garden": false
     },
     {
-        "property-id": 11,
+        "property_id": 11,
+        "seller_id" : 11,
         "address": {
             "firstLine": "221B Baker Street",
             "city": "London",
@@ -264,7 +275,8 @@
         "garden": true
     },
     {
-        "property-id": 12,
+        "property_id": 12,
+        "seller_id" : 12,
         "address": {
             "firstLine": "1313 Mockingbird Lane",
             "city": "Mockingbird Heights",
@@ -288,7 +300,8 @@
         "garden": true
     },
     {
-        "property-id": 13,
+        "property_id": 13,
+        "seller_id" : 13,
         "address": {
             "firstLine": "Elm Street",
             "city": "Springwood",
@@ -312,7 +325,8 @@
         "garden": false
     },
     {
-        "property-id": 14,
+        "property_id": 14,
+        "seller_id" : 14,
         "address": {
             "firstLine": "1 Infinite Loop",
             "city": "Cupertino",

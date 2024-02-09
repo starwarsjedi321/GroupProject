@@ -33,6 +33,7 @@ function App() {
             path="about-us"
             element={<>about us</>}
             />
+            <Route path='view/:property-id' ></Route>
             <Route
             path="sign-in"
             element={<>sign in</>}
