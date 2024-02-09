@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/displayproperties.css"
 import Properties from "../database/Properties.json";
+import { Link } from 'react-router-dom';
 
 function DisplayProperties() {
   return (
@@ -8,13 +9,15 @@ function DisplayProperties() {
       <ul className='property-details'>
         {Properties.map(property => {
           return (
-            <div className='property-card'>
-            <li key={property.id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
-            <li key={property.id} >{property.address.city}</li>
-            <li key={property.id}>{"£" + property.price}</li>
-            <li key={property.id}>{property.type}</li>
-            <li key={property.id}></li>
-            </div>
+            <Link to={`view/${property.property_id}`}>
+              <div className='property-card'>
+                <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
+                <li >{property.address.city}</li>
+                <li>{"£" + property.price}</li>
+                <li>{property.type}</li>
+                <li></li>
+              </div>
+            </Link>
           )
         })}
       </ul></>
@@ -22,5 +25,5 @@ function DisplayProperties() {
   )
 }
 
-export default DisplayProperties
+export default DisplayProperties;
 

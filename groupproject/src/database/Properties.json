@@ -1,6 +1,8 @@
-[
+{
+  "buyers": [
     {
-        "property-id": 1,
+        "property_id": 1,
+        "seller_id" : 1,
         "address": {
             "firstLine": "Bridgford Rd",
             "city": "West Bridgford",
@@ -8,14 +10,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 2000000,
         "type": "detached",
@@ -24,7 +26,8 @@
         "garden": true
     },
     {
-        "property-id": 2,
+        "property_id": 2,
+        "seller_id" : 2,
         "address": {
             "firstLine": "Park Lane",
             "city": "London",
@@ -32,14 +35,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 3500000,
         "type": "terraced",
@@ -48,7 +51,8 @@
         "garden": false
     },
     {
-        "property-id": 3,
+        "property_id": 3,
+        "seller_id" : 3,
         "address": {
             "firstLine": "Elm Street",
             "city": "Springfield",
@@ -56,14 +60,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 150000,
         "type": "semi-detached",
@@ -72,7 +76,8 @@
         "garden": true
     },
     {
-        "property-id": 4,
+        "property_id": 4,
+        "seller_id" : 4,
         "address": {
             "firstLine": "Ocean Avenue",
             "city": "Amityville",
@@ -80,14 +85,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 800000,
         "type": "terraced",
@@ -96,7 +101,8 @@
         "garden": true
     },
     {
-        "property-id": 5,
+        "property_id": 5,
+        "seller_id" : 5,
         "address": {
             "firstLine": "123 Main St",
             "city": "Anytown",
@@ -104,14 +110,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 250000,
         "type": "semi-detached",
@@ -120,7 +126,8 @@
         "garden": false
     },
     {
-        "property-id": 6,
+        "property_id": 6,
+        "seller_id" : 6,
         "address": {
             "firstLine": "Maple Avenue",
             "city": "Sunnydale",
@@ -128,14 +135,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 420000,
         "type": "terraced",
@@ -144,7 +151,8 @@
         "garden": true
     },
     {
-        "property-id": 7,
+        "property_id": 7,
+        "seller_id" : 7,
         "address": {
             "firstLine": "Elm Street",
             "city": "Springwood",
@@ -152,14 +160,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 300000,
         "type": "detached",
@@ -168,7 +176,8 @@
         "garden": false
     },
     {
-        "property-id": 8,
+        "property_id": 8,
+        "seller_id" : 8,
         "address": {
             "firstLine": "Evergreen Terrace",
             "city": "Springfield",
@@ -176,14 +185,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 500000,
         "type": "detached",
@@ -192,7 +201,8 @@
         "garden": true
     },
     {
-        "property-id": 9,
+        "property_id": 9,
+        "seller_id" : 9,
         "address": {
             "firstLine": "742 Evergreen Terrace",
             "city": "Springfield",
@@ -200,14 +210,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 1000000,
         "type": "semi-detached",
@@ -216,7 +226,8 @@
         "garden": true
     },
     {
-        "property-id": 10,
+        "property_id": 10,
+        "seller_id" : 10,
         "address": {
             "firstLine": "Sherlock Holmes St",
             "city": "London",
@@ -224,14 +235,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 1800000,
         "type": "semi-detached",
@@ -240,7 +251,8 @@
         "garden": false
     },
     {
-        "property-id": 11,
+        "property_id": 11,
+        "seller_id" : 11,
         "address": {
             "firstLine": "221B Baker Street",
             "city": "London",
@@ -248,14 +260,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 2500000,
         "type": "terraced",
@@ -264,7 +276,8 @@
         "garden": true
     },
     {
-        "property-id": 12,
+        "property_id": 12,
+        "seller_id" : 12,
         "address": {
             "firstLine": "1313 Mockingbird Lane",
             "city": "Mockingbird Heights",
@@ -272,14 +285,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 1200000,
         "type": "terraced",
@@ -288,7 +301,8 @@
         "garden": true
     },
     {
-        "property-id": 13,
+        "property_id": 13,
+        "seller_id" : 13,
         "address": {
             "firstLine": "Elm Street",
             "city": "Springwood",
@@ -296,14 +310,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 300000,
         "type": "terraced",
@@ -312,7 +326,8 @@
         "garden": false
     },
     {
-        "property-id": 14,
+        "property_id": 14,
+        "seller_id" : 14,
         "address": {
             "firstLine": "1 Infinite Loop",
             "city": "Cupertino",
@@ -320,14 +335,14 @@
         },
         "img": {
             "thumbnail" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
-            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
-            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img1" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+            "img2" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+            "img3" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
             "img4" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
-            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
-            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
-            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
-            "img9" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+            "img5" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+            "img6" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+            "img7" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+            "img8" : "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
         },
         "price": 1000000000,
         "type": "detached",
@@ -335,4 +350,349 @@
         "bathrooms": 0,
         "garden": false
     }
-    ]
+  ],
+  "sellers": [
+    {
+      "name": "",
+      "example": ""
+    }
+  ],
+  "properties": [
+    {
+      "property-id": 1,
+      "address": {
+        "firstLine": "Bridgford Rd",
+        "city": "West Bridgford",
+        "postcode": "NG2 6AG"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 2000000,
+      "type": "detached",
+      "bedrooms": 7,
+      "bathrooms": 5,
+      "garden": true
+    },
+    {
+      "property-id": 2,
+      "address": {
+        "firstLine": "Park Lane",
+        "city": "London",
+        "postcode": "W1K 7TY"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 3500000,
+      "type": "terraced",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "garden": false
+    },
+    {
+      "property-id": 3,
+      "address": {
+        "firstLine": "Elm Street",
+        "city": "Springfield",
+        "postcode": "12345"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 150000,
+      "type": "semi-detached",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "garden": true
+    },
+    {
+      "property-id": 4,
+      "address": {
+        "firstLine": "Ocean Avenue",
+        "city": "Amityville",
+        "postcode": "11701"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 800000,
+      "type": "terraced",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "garden": true
+    },
+    {
+      "property-id": 5,
+      "address": {
+        "firstLine": "123 Main St",
+        "city": "Anytown",
+        "postcode": "54321"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 250000,
+      "type": "semi-detached",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "garden": false
+    },
+    {
+      "property-id": 6,
+      "address": {
+        "firstLine": "Maple Avenue",
+        "city": "Sunnydale",
+        "postcode": "90120"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 420000,
+      "type": "terraced",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "garden": true
+    },
+    {
+      "property-id": 7,
+      "address": {
+        "firstLine": "Elm Street",
+        "city": "Springwood",
+        "postcode": "45678"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 300000,
+      "type": "detached",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "garden": false
+    },
+    {
+      "property-id": 8,
+      "address": {
+        "firstLine": "Evergreen Terrace",
+        "city": "Springfield",
+        "postcode": "12345"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 500000,
+      "type": "detached",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "garden": true
+    },
+    {
+      "property-id": 9,
+      "address": {
+        "firstLine": "742 Evergreen Terrace",
+        "city": "Springfield",
+        "postcode": "12345"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 1000000,
+      "type": "semi-detached",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "garden": true
+    },
+    {
+      "property-id": 10,
+      "address": {
+        "firstLine": "Sherlock Holmes St",
+        "city": "London",
+        "postcode": "WC2N 5DU"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 1800000,
+      "type": "semi-detached",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "garden": false
+    },
+    {
+      "property-id": 11,
+      "address": {
+        "firstLine": "221B Baker Street",
+        "city": "London",
+        "postcode": "NW1 6XE"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 2500000,
+      "type": "terraced",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "garden": true
+    },
+    {
+      "property-id": 12,
+      "address": {
+        "firstLine": "1313 Mockingbird Lane",
+        "city": "Mockingbird Heights",
+        "postcode": "66666"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 1200000,
+      "type": "terraced",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "garden": true
+    },
+    {
+      "property-id": 13,
+      "address": {
+        "firstLine": "Elm Street",
+        "city": "Springwood",
+        "postcode": "45678"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 300000,
+      "type": "terraced",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "garden": false
+    },
+    {
+      "property-id": 14,
+      "address": {
+        "firstLine": "1 Infinite Loop",
+        "city": "Cupertino",
+        "postcode": "95014"
+      },
+      "img": {
+        "thumbnail": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_03_0001.jpeg",
+        "img2": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_01_0001.jpeg",
+        "img3": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_00_0001.jpeg",
+        "img4": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img5": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_02_0001.jpeg",
+        "img6": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_04_0001.jpeg",
+        "img7": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_05_0001.jpeg",
+        "img8": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_06_0001.jpeg",
+        "img9": "https://media.rightmove.co.uk/80k/79099/141476393/79099_RX281501_IMG_07_0001.jpeg"
+      },
+      "price": 1000000000,
+      "type": "detached",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "garden": false
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import './styles/layout.css';
 import DisplayProperties from './components/DisplayProperties';
 // Import page components below
 import PropertyForm from './components/propertyForm.js';
+import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             path="about-us"
             element={<>about us</>}
             />
+            <Route path='properties/view/:property_id' element={<DisplaySelectedProperty/>}></Route>
             <Route
             path="sign-in"
             element={<>sign in</>}
