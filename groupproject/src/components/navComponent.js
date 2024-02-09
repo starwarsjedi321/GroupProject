@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link to="/register-buyer">Register Buyer</Link>
         </li>
         <li>
-          <Link to="/register-properties">Register Properties</Link>
+          <Link to="/register-property">Register Property</Link>
         </li>
         <li>
           <Link to="/properties">Properties</Link>
