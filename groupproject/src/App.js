@@ -5,11 +5,16 @@ import Layout from './components/layoutComponent';
 import './styles/layout.css';
 // Import page components below
 import PropertyForm from './components/propertyForm.js';
+import SellerForm from './components/SellerForm.js';
 import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 import Buyerform from './components/Buyerform';
 import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
 import AboutUs from './components/aboutUs.js';
+// Import page components below
+import PropertyForm from './components/propertyForm.js';
+import SellerForm from './components/SellerForm.js';
+import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 
 function App() {
   return (
@@ -26,7 +31,7 @@ function App() {
               />
               <Route
                 path="register-seller"
-                element={<>seller test</>}
+                element={<SellerForm/>}
               />
               <Route
                 path="register-buyer"
@@ -44,7 +49,7 @@ function App() {
                 element={<AboutUs />}
               />
               <Route
-                path='properties/view/:property_id'
+                path='view/:property_id'
                 element={<DisplaySelectedProperty />}>
                   
                 </Route>
