@@ -32,6 +32,7 @@ export default function (props){
 
 
         let dataItem ={
+            ID: id,
             firstName: firstName,
             lastName: lastName,
             email: email,
@@ -51,7 +52,7 @@ export default function (props){
 
 
 
-        fetch('http://localhost:3001/register-seller', {
+        fetch('http://localhost:3000/sellers', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
