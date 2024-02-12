@@ -1,0 +1,13 @@
+/* CSS for the forms on the website */
+
+.wrapper {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-decoration: bold;
+    color: black;
+    font-weight: bold;
+}
