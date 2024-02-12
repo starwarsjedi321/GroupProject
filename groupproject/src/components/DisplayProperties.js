@@ -3,7 +3,10 @@ import "../styles/displayproperties.css"
 import Properties from "../database/Properties.json";
 import { Link } from 'react-router-dom'
 
-function DisplayProperties() {
+function DisplayProperties(props) {
+  const {search} = props;
+  console.log(search)
+
 
   return (
     <>
