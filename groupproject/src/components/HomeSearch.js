@@ -16,13 +16,22 @@ const HomeSearch = () => {
         }
     }
 
-    async function searchJSONFile(substring) {
+    async function searchJSONFile() {
+        let substring = document.getElementById("propSearchField").value;
+        console.log(substring);
         const lowerCaseSubstring = substring.toLowerCase();
 
         try {
             //Fetch the external JSON file
-            return fetch('../database/Properties.json')
+            return await fetch('http://localhost:3001/properties', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept':'application/json'
+                }
+            })
                 .then(response => response.json())
+                
                 .then(jsonData => {
                     //Filter the JSON data based on the substring
                     const results = jsonData.filter(obj => {
@@ -42,20 +51,12 @@ const HomeSearch = () => {
         }
     }
 
-    // async function performSearch() {
-    //     const searchStr = document.getElementById("propSearchField").value;
-    //     if (searchStr.length > 0) {
-    //         const results = await searchJSONFile(searchStr);
-    //         setSearchResults(results);
-    //     }
-    // }
-
     return (
         <div name="searchNav">
             <h2>Find Your Dream Home</h2>
             <h4>Search properties for sale in the UK</h4>
             <input id="propSearchField" onKeyUp={keyPress} type="text"></input>
-            <button id="searchBtn" onClick={searchJSONFile()}>Search</button>
+            <button id="searchBtn" onClick={searchJSONFile}>Search</button>
         </div>
     )
 }
