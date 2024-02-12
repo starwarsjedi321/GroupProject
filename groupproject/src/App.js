@@ -32,7 +32,7 @@ function App() {
             element= {[<Buyerform />]}
             />
             <Route
-            path="properties"
+            path="properties/:query"
             element={<DisplayProperties/>}
             />
             <Route path='register-property' element={<PropertyForm/>}></Route>
