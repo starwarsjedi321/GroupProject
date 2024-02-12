@@ -1,0 +1,26 @@
+
+.property-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    flex-wrap: wrap;
+}
+
+.property-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 40%;
+}
+
+.property-img {
+    width: 20em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.property-card li {
+    list-style-type: none;
+    margin-top: 0.8em;
+}

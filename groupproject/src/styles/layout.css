@@ -41,7 +41,7 @@ li a:hover {
 main {
     flex: auto;
     background-color: lightblue;
-    padding: 0 25% 0 25%;
+    padding: 0 15% 0 15%;
 }
 
 .sectionOne {
@@ -74,7 +74,7 @@ div.icons img {
     filter: brightness(0) invert(0.5);
     transition: 0.1s;
 }
-img:hover {
+a > img:hover {
     filter: brightness(0) invert(0);
     height: 3.2em;
     width: 3.2em;
