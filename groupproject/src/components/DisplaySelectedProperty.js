@@ -1,19 +1,19 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import Properties from "../database/Properties.json"
-import "../styles/displayselectedproperty.css";
-import AliceCarousel from 'react-alice-carousel';
-import "react-alice-carousel/lib/alice-carousel.css"
+// import React from 'react'
+// import { useParams } from 'react-router-dom'
+// import Properties from "../database/Properties.json"
+// import "../styles/displayselectedproperty.css";
+// import AliceCarousel from 'react-alice-carousel';
+// import "react-alice-carousel/lib/alice-carousel.css"
 
-function DisplaySelectedProperty() {
-    let { property_id } = useParams();
-    property_id = Number(property_id);
+// function DisplaySelectedProperty() {
+//     let { property_id } = useParams();
+//     property_id = Number(property_id);
 
     const getPropertyDetails = Properties.properties.filter(property => {
         if (property_id === property.property_id) return property;
     })
 
-    let propertyImgs = Object.values(getPropertyDetails[0].img);
+//     let propertyImgs = Object.values(getPropertyDetails[0].img);
 
     const renderImgTags = propertyImgs.map((imgLink, index) => {
         return <img key={index} src={imgLink} class='sliderimg'></img>
@@ -34,6 +34,5 @@ function DisplaySelectedProperty() {
             <p>Garden {getPropertyDetails[0].garden}</p>
         </div>
     )
-}
 
-export default DisplaySelectedProperty
+// export default DisplaySelectedProperty
