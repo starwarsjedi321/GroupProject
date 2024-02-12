@@ -4,60 +4,9 @@ import Properties from '../database/Properties.json';
 
 
 
-// function firstName(props){
-//     return(
-        
-//     )
-// }
-
-
-// let data = {};
-
-// let dataBind = function(){
-
-// };
-
-// dataBind.get = function(key){
-//     let field = data;
-//     key.split(".").forEach(function(item){
-//         field = field[item];
-//     });
-
-//     return field;
-
-// };
-
-
-// dataBind.get = function(props){
-//     document.querySelectorAll('[name]').forEach(function(props){
-//         data[`${props.name}`] = `${props.value}`;
-//     })
-//     console.log(data);
-// };
-
-
-// //     for(let i=0;i=3;i++){
-// //         data.firstName = `${props.value}`;
-// //     }
-// //     console.log(data);
-// // }
-
-
-// dataBind.set = function(key,value){
-//     data[key] = value;
-// };
-
-// dataBind.log = function(){
-
-// }
-
-
-
-console.log("Hello")
-
-
-
 export default function(props){
+
+    // setting functions to store data inputted in form
 
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
@@ -66,24 +15,15 @@ export default function(props){
 
     function handleSubmit(event){
         event.preventDefault();
-        console.log(firstName);
-        console.log(lastName);
-        console.log(email);
-        console.log(telephone);
 
-        // // let Properties = Buyer[2];
-
-        // console.log(Properties.properties);
-
-        // console.log(Properties.buyers.length);
-        // console.log("hello");
-
+        
+        // Gathering length of buyers data to populate ID number
         let buyerslist = Properties.buyers;
-
         let buyerlength = buyerslist.length;
-
         let id = buyerlength + 1;
-        // let id = 10;
+        
+
+        // Create the object from the form input data
 
         let dataItem = {
             ID: id,
@@ -93,42 +33,7 @@ export default function(props){
             telephone: telephone
         }
 
-
-        console.log(dataItem);
-        // Buyer.push(dataItem);
-        // console.log(Buyer);
-
-        // var data = require('../database/Buyer.json');
-        // console.log(data);
-
-        // data.push(dataItem);
-        // console.log(data);
-
-
-        // console.log(dataItem);
-        // console.log(Buyer);
-        // let dataItemNew = new FormData();
-
-        // dataItemNew.append( "json", JSON.stringify( dataItem ) );
-
-
-        // fetch("../database/Buyer.js",
-        // {
-        //     method: "POST",
-        //     body: dataItemNew
-        // });
-        // const content = await rawResponse.json();
-        // .then(function(res){ return res.json(); })
-        // .then(function(dataItemNew){ alert( JSON.stringify( dataItemNew ) ) })
-
-
-        // fetch('../database/Buyer.json', {
-        //     method: "POST",
-        //     headers: {
-//             'Accept': 'application/json',
-                // 'Content-Type': 'application/json'
-// 
-// 
+        // sending new buyer details to be stored in database
 
         fetch("http://localhost:3000/buyers", {
         method: "post",
@@ -136,39 +41,12 @@ export default function(props){
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
-        //make sure to serialize your JSON body
         body: JSON.stringify(dataItem)
         })
-        // .then( (response) => { 
-        // //do something awesome that makes the world a better place
-        // });
-
-
-
-
-// 
-// 
-//         
-
-        //     }
-        //     body: JSON.stringify(dataItem)
-        // })  
-        //     .then(response=> response.json())
-        //     .then(data=>{
-        //         console.log("hello")
-        //     });
-
-
-        
-
-        // JSONFILE.push(dataItem);
-
     }
 
-
-
-
     return (
+        // creating actual form
         <form id="form1" onSubmit={(event) => {handleSubmit(event)}}>
             <fieldset className="wrapper">
                 <legend className="title">Register As A New Buyer</legend>
@@ -191,40 +69,10 @@ export default function(props){
 
                 <button type="submit" form="form1">Save</button>
 
-                {/* onClick={(event) => {
-                    handleSubmit(event)
-                    }} */}
-
-
-                {/* <ul >
-                    <li className="item">
-                        <b>First Name</b>
-                        <input type='text' name='firstName'></input>
-                    </li>
-                    <li className="item">
-                        <b>Last Name</b>
-                        <input type='text' name='lastName'></input>
-                    </li>
-                    <li className="item">
-                        <b>Email</b>
-                        <input type='email' name='email'></input>
-                    </li>
-                    <li className="item">
-                        <b>Telephone</b>
-                        <input type='text' name='telephone'></input>
-                    </li>
-                    <li>
-                        <button type="submit" form="form1" value={buyer} onClick={(event) => {
-                            handleSubmit(event)
-                        }}>Save</button>
-                    </li>
-                </ul> */}
-
             </fieldset>
         </form>
-        
     );
 };
 
 
-// console.log(data);
+

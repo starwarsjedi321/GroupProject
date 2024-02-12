@@ -119,22 +119,6 @@
       "email": "wallace-123@gmail.com",
       "telephone": "07418394628",
       "id": "2295"
-    },
-    {
-      "id": "fe4f",
-      "ID": 16,
-      "firstName": "Max",
-      "lastName": "The Dog",
-      "email": "max@dog",
-      "telephone": "12345"
-    },
-    {
-      "id": "3e4a",
-      "ID": 17,
-      "firstName": "Clifford",
-      "lastName": "The Big Red Dog",
-      "email": "cliff@big",
-      "telephone": "123"
     }
   ],
   "sellers": [
