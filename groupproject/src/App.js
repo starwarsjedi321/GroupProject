@@ -8,6 +8,7 @@ import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
 // Import page components below
 import PropertyForm from './components/propertyForm.js';
+import SellerForm from './components/SellerForm.js';
 import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
             />
             <Route 
             path="register-seller"
-            element={<>seller test</>}
+            element={<SellerForm/>}
             />
             <Route
             path="register-buyer"
