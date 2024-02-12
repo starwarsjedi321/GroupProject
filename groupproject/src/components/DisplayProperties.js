@@ -1,26 +1,40 @@
 import React from 'react';
 import "../styles/displayproperties.css"
 import Properties from "../database/Properties.json";
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
-function DisplayProperties(props) {
-  const {search} = props;
-  console.log(search)
+function DisplayProperties() {
 
+  let filteredProperties = [];
+  const properties = Properties.properties;
+
+  let { query } = useParams();
+
+  if (query) {
+    properties.forEach(property => {
+      if (Object.values(property.address).includes(query)) {
+        filteredProperties.push(property)
+      } 
+    }) 
+  };
+
+  const chosenArray = filteredProperties.length === 0 ? Properties.properties : filteredProperties;
 
   return (
     <>
+      {query !== 'all' ?
+        <h1>{`Properties in ${query}`}</h1>
+        : <h1>{`Available Properties`}</h1>
+      }
       <ul className='property-details'>
-        {Properties.properties.map(property => {
-          console.log(property);
+        {chosenArray.map(property => {
           return (
-            <Link to={`view/${property.property_id}`}>
+            <Link to={`/view/${property.property_id}`}>
               <div className='property-card'>
                 <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
                 <li >{property.address.city}</li>
                 <li>{"£" + property.price}</li>
                 <li>{property.type}</li>
-                <li></li>
               </div>
             </Link>
           )
