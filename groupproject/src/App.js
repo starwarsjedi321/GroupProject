@@ -5,7 +5,7 @@ import Layout from './components/layoutComponent';
 import './styles/layout.css';
 // Import page components below
 import PropertyForm from './components/propertyForm.js';
-import SellerForm from './components/Sellerform';
+import SellerForm from './components/SellerForm.js';
 
 function App() {
   return (
