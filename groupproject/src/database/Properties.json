@@ -245,7 +245,7 @@
   ],
   "properties": [
     {
-      "property-id": 1,
+      "property_id": 1,
       "address": {
         "firstLine": "Bridgford Rd",
         "city": "West Bridgford",
@@ -270,7 +270,7 @@
       "id": "7101"
     },
     {
-      "property-id": 2,
+      "property_id": 2,
       "address": {
         "firstLine": "Park Lane",
         "city": "London",
@@ -295,7 +295,7 @@
       "id": "c4ce"
     },
     {
-      "property-id": 3,
+      "property_id": 3,
       "address": {
         "firstLine": "Elm Street",
         "city": "Springfield",
@@ -320,7 +320,7 @@
       "id": "8e5d"
     },
     {
-      "property-id": 4,
+      "property_id": 4,
       "address": {
         "firstLine": "Ocean Avenue",
         "city": "Amityville",
@@ -345,7 +345,7 @@
       "id": "884c"
     },
     {
-      "property-id": 5,
+      "property_id": 5,
       "address": {
         "firstLine": "123 Main St",
         "city": "Anytown",
@@ -370,7 +370,7 @@
       "id": "ad40"
     },
     {
-      "property-id": 6,
+      "property_id": 6,
       "address": {
         "firstLine": "Maple Avenue",
         "city": "Sunnydale",
@@ -395,7 +395,7 @@
       "id": "f842"
     },
     {
-      "property-id": 7,
+      "property_id": 7,
       "address": {
         "firstLine": "Elm Street",
         "city": "Springwood",
@@ -420,7 +420,7 @@
       "id": "e5be"
     },
     {
-      "property-id": 8,
+      "property_id": 8,
       "address": {
         "firstLine": "Evergreen Terrace",
         "city": "Springfield",
@@ -445,7 +445,7 @@
       "id": "39f7"
     },
     {
-      "property-id": 9,
+      "property_id": 9,
       "address": {
         "firstLine": "742 Evergreen Terrace",
         "city": "Springfield",
@@ -470,7 +470,7 @@
       "id": "15b0"
     },
     {
-      "property-id": 10,
+      "property_id": 10,
       "address": {
         "firstLine": "Sherlock Holmes St",
         "city": "London",
@@ -495,7 +495,7 @@
       "id": "de51"
     },
     {
-      "property-id": 11,
+      "property_id": 11,
       "address": {
         "firstLine": "221B Baker Street",
         "city": "London",
@@ -520,7 +520,7 @@
       "id": "cbe6"
     },
     {
-      "property-id": 12,
+      "property_id": 12,
       "address": {
         "firstLine": "1313 Mockingbird Lane",
         "city": "Mockingbird Heights",
@@ -545,7 +545,7 @@
       "id": "8802"
     },
     {
-      "property-id": 13,
+      "property_id": 13,
       "address": {
         "firstLine": "Elm Street",
         "city": "Springwood",
@@ -570,7 +570,7 @@
       "id": "bf8a"
     },
     {
-      "property-id": 14,
+      "property_id": 14,
       "address": {
         "firstLine": "1 Infinite Loop",
         "city": "Cupertino",
