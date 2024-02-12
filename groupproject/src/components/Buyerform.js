@@ -1,6 +1,6 @@
 import '../styles/form.css';
 import React, { useState } from 'react';
-import Buyer from '../database/Buyer.json';
+import Properties from '../database/Properties.json';
 
 
 
@@ -53,7 +53,7 @@ import Buyer from '../database/Buyer.json';
 
 
 
-
+console.log("Hello")
 
 
 
@@ -71,7 +71,19 @@ export default function(props){
         console.log(email);
         console.log(telephone);
 
-        let id = Buyer.length +1;
+        // // let Properties = Buyer[2];
+
+        // console.log(Properties.properties);
+
+        // console.log(Properties.buyers.length);
+        // console.log("hello");
+
+        let buyerslist = Properties.buyers;
+
+        let buyerlength = buyerslist.length;
+
+        let id = buyerlength + 1;
+        // let id = 10;
 
         let dataItem = {
             ID: id,
@@ -80,6 +92,7 @@ export default function(props){
             email: email,
             telephone: telephone
         }
+
 
         console.log(dataItem);
         // Buyer.push(dataItem);
@@ -117,7 +130,7 @@ export default function(props){
 // 
 // 
 
-        fetch("", {
+        fetch("http://localhost:3000/buyers", {
         method: "post",
         headers: {
             'Accept': 'application/json',
@@ -156,29 +169,31 @@ export default function(props){
 
 
     return (
-        <form id="form1">
+        <form id="form1" onSubmit={(event) => {handleSubmit(event)}}>
             <fieldset className="wrapper">
                 <legend className="title">Register As A New Buyer</legend>
 
                 <b>First Name</b>
-                <input type='text' value={firstName} name='firstName' onChange={(event => setFirstName(event.target.value))}></input>
+                <input type='text' value={firstName} name='firstName' onChange={(event => setFirstName(event.target.value))} required="required"></input>
                 <br/>
                 
                 <b>Last Name</b>
-                <input type='text' name='lastName' value={lastName} onChange={(event => setLastName(event.target.value))}></input>
+                <input type='text' name='lastName' value={lastName} onChange={(event => setLastName(event.target.value))} required="required"></input>
                 <br />
 
                 <b>Email</b>
-                <input type='email' name='email' value={email} onChange={(event => setEmail(event.target.value))}></input>
+                <input type='email' name='email' value={email} onChange={(event => setEmail(event.target.value))} required="required"></input>
                 <br />
 
                 <b>Telephone</b>
-                <input type='text' name='telephone' value={telephone} onChange={(event => setTelephone(event.target.value))}></input>
+                <input type='text' name='telephone' value={telephone} onChange={(event => setTelephone(event.target.value))} required="required"></input>
                 <br />
 
-                <button type="submit" form="form1" onClick={(event) => {
+                <button type="submit" form="form1">Save</button>
+
+                {/* onClick={(event) => {
                     handleSubmit(event)
-                    }}>Save</button>
+                    }} */}
 
 
                 {/* <ul >
