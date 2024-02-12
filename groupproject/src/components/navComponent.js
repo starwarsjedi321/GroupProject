@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link to="/register-property">Register Property</Link>
         </li>
         <li>
-          <Link to="/properties">Properties</Link>
+          <Link to="/properties/all">Properties</Link>
         </li>
         <li>
             <Link to="/about-us">About us</Link>
