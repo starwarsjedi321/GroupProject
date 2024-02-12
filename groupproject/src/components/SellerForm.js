@@ -76,7 +76,7 @@ return(
     <form id = "form1" onSubmit={(event) => {handleSubmit(event)}}>
         <fieldset>
             <legend> Seller</legend>
-            <label for="firstName"> Please enter your first name:
+            <label for="firstName">First Name
                 <input 
                     type = "text"
                     name = "firstName"
@@ -85,7 +85,7 @@ return(
                     required="required"
                 />
             </label><br/>
-            <label for ="lastName"> Please enter your Last name:
+            <label for ="lastName">Last Name
                 <input
                  type = "text"
                  name = "lastName"
@@ -94,7 +94,7 @@ return(
                 required="required"
                 />
             </label><br/>
-            <label for = "email">Please enter your email:
+            <label for = "email">Email
                 <input
                 type = "email"
                 name = "email"
@@ -103,7 +103,7 @@ return(
                 required="required"
                 />
             </label><br/>
-            <label for = "telephone"> Please enter your telephone number:
+            <label for = "telephone">Telephone
                 <input
                 type = "text"
                 name = "telephone"
@@ -112,7 +112,7 @@ return(
                 required="required"
                 />
             </label><br/>
-            <button form = "form1"> Submit  </button>
+            <button form = "form1"> Save  </button>
         </fieldset>
     </form>
 )
