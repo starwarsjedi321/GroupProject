@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './navComponent.js';
-import HomeSearch from './HomeSearch.js';
 import Footer from './Footer.js';
 import { Outlet } from 'react-router-dom';
 
@@ -14,7 +13,6 @@ const Layout = () => {
     <main>
         <section className="sectionOne">
             <Outlet/>
-            <HomeSearch />
         </section>
     </main>
     <footer>

@@ -1,6 +1,6 @@
 import '../styles/form.css';
 import React, { useState } from 'react';
-import Buyer from '../database/Buyer.json';
+// import Buyer from '../database/Buyer.json';
 
 
 
