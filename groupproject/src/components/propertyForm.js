@@ -60,18 +60,20 @@ export default () => {
             <legend>Register Property</legend>
             <form onSubmit={onSubmit}>
                 <p>Address:</p>
-                <label>First line: <input required onChange={event => setFirstLine(event.target.value)} name="firstLine" value={firstLine} />
-                </label>
+                <label>First line: <input placeholder="First line of address" required onChange={event => setFirstLine(event.target.value)} name="firstLine" value={firstLine} />
+                    *</label>
                 <br></br>
-                <label>City: <input required name="city" onChange={event => setCity(event.target.value)} value={city} />
-                </label>
+                <label>City: <input placeholder="Enter City" required name="city" onChange={event => setCity(event.target.value)} value={city} />
+                    *</label>
                 <br></br>
-                <label>Postcode: <input required name="postcode" onChange={event => setPostCode(event.target.value)}value={postCode} /></label>
+                <label>Postcode: <input placeholder="Enter a valid Postcode" required name="postcode" onChange={event => setPostCode(event.target.value)} value={postCode} />
+                    *</label>
                 <br></br>
-                <label>Price: <input required name="price" onChange={event => setPrice(event.target.value)} value={price} /></label>
+                <label>Price: <input required placeholder="Enter property price" onChange={event => setPrice(event.target.value)} value={price} />
+                    *</label>
                 <br></br>
                 <label>Type: </label>
-                <input required type="search" list="typeList" onChange={event => setType(event.target.value)}value={type} />
+                <input required type="search" list="typeList" onChange={event => setType(event.target.value)} value={type} />*
                 <datalist id="typeList">
                     <option>...</option>
                     <option>Detachted</option>
@@ -81,14 +83,16 @@ export default () => {
                     <option>Bungalow</option>
                 </datalist>
                 <br></br>
-                <label>Bedrooms: <input required name="bedrooms" onChange={event => setBedroom(event.target.value)}value={bedroom} /></label>
+                <label>Bedrooms: <input required name="bedrooms" onChange={event => setBedroom(event.target.value)} value={bedroom} />
+                    *</label>
                 <br></br>
-                <label>Bathrooms: <input required name="bathrooms" onChange={event => setBathroom(event.target.value)} value={bathroom} /></label>
+                <label>Bathrooms: <input required name="bathrooms" onChange={event => setBathroom(event.target.value)} value={bathroom} />
+                    *</label>
                 <br></br>
-                <label>Garden: <input type="checkbox" name="garden" onClick={event => setGarden(event.target.checked)}/></label>
+                <label>Garden: <input type="checkbox" name="garden" onClick={event => setGarden(event.target.checked)} />
+                </label>
                 <button type="submit">Register</button>
             </form>
-
         </fieldset>
     )
 }

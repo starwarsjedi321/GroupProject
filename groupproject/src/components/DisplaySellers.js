@@ -16,7 +16,7 @@ const DisplaySellers = () => {
                     <th>Email: </th>
                     <th>Telephone: </th>
                 </tr>
-                {data.map((details) => {
+                {data.sellers.map((details) => {
                     return (
                         <tr key={details.id} >
                             <td>{details.ID}</td>
