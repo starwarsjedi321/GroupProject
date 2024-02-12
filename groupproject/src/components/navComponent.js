@@ -8,7 +8,7 @@ const Navbar = () => {
             <img/><p>img placeholder</p>
         </li>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="/register-seller">Register Seller</Link>

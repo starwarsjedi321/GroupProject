@@ -1,21 +1,251 @@
 {
   "buyers": [
     {
-      "example": "",
-      "name": "",
-      "id": "bc53"
+      "ID": 1,
+      "firstName": "Sarah",
+      "lastName": "Smith",
+      "email": "sarah.smith@gmail.com",
+      "telephone": "07562946283",
+      "id": "8c9c"
+    },
+    {
+      "ID": 2,
+      "firstName": "Bob",
+      "lastName": "Grant",
+      "email": "bob.grant@gmail.com",
+      "telephone": "07354678982",
+      "id": "6ef9"
+    },
+    {
+      "ID": 3,
+      "firstName": "Kate",
+      "lastName": "Sanders",
+      "email": "kate.sanders@gmail.com",
+      "telephone": "07394517592",
+      "id": "c729"
+    },
+    {
+      "ID": 4,
+      "firstName": "Niall",
+      "lastName": "Anderson",
+      "email": "niall123@hotmail.com",
+      "telephone": "07561325497",
+      "id": "7327"
+    },
+    {
+      "ID": 5,
+      "firstName": "Monica",
+      "lastName": "Harrison",
+      "email": "monicaharrison@outlook.com",
+      "telephone": "07364583663",
+      "id": "3535"
+    },
+    {
+      "ID": 6,
+      "firstName": "Steve",
+      "lastName": "Barkley",
+      "email": "stevedog@gmail.com",
+      "telephone": "07586973614",
+      "id": "47c4"
+    },
+    {
+      "ID": 7,
+      "firstName": "Gregg",
+      "lastName": "Schmitt",
+      "email": "gregg9080@outlook.com",
+      "telephone": "07883364759",
+      "id": "c7db"
+    },
+    {
+      "ID": 8,
+      "firstName": "Harry",
+      "lastName": "Plant",
+      "email": "plantharry56@gmail.com",
+      "telephone": "07836471922",
+      "id": "ed29"
+    },
+    {
+      "ID": 9,
+      "firstName": "Henry",
+      "lastName": "David",
+      "email": "henry.david321@gmail.com",
+      "telephone": "07869936210",
+      "id": "2571"
+    },
+    {
+      "ID": 10,
+      "firstName": "Jamie",
+      "lastName": "Baker",
+      "email": "jamie.baker345@outlook.com",
+      "telephone": "07883647192",
+      "id": "fa18"
+    },
+    {
+      "ID": 11,
+      "firstName": "Alice",
+      "lastName": "Scott",
+      "email": "alice123scott@gmail.com",
+      "telephone": "07466244435",
+      "id": "ea96"
+    },
+    {
+      "ID": 12,
+      "firstName": "Emily",
+      "lastName": "Kay",
+      "email": "emilykay7834@gmail.com",
+      "telephone": "07117493776",
+      "id": "b3a1"
+    },
+    {
+      "ID": 13,
+      "firstName": "Frank",
+      "lastName": "Overton",
+      "email": "frankieoverton@hotmail.com",
+      "telephone": "07348562713",
+      "id": "66c2"
+    },
+    {
+      "ID": 14,
+      "firstName": "Kayleigh",
+      "lastName": "Rogan",
+      "email": "kayleighrogan123@gmail.com",
+      "telephone": "07846295825",
+      "id": "8d75"
+    },
+    {
+      "ID": 15,
+      "firstName": "Wallace",
+      "lastName": "Gordon",
+      "email": "wallace-123@gmail.com",
+      "telephone": "07418394628",
+      "id": "2295"
     }
   ],
   "sellers": [
     {
-      "name": "",
-      "example": "",
-      "id": "49f8"
+      "ID": 1,
+      "firstName": "Diane",
+      "lastName": "Bond",
+      "email": "D.Bond34@gmail.com",
+      "telephone": "01282 439567",
+      "id": "22ce"
+    },
+    {
+      "ID": 2,
+      "firstName": "Michelle",
+      "lastName": "Avery",
+      "email": "M.Avery687@gmail.com",
+      "telephone": "0121 771 0639",
+      "id": "6235"
+    },
+    {
+      "ID": 3,
+      "firstName": "Joshua",
+      "lastName": "Hamilton",
+      "email": "J.Hamilton7438@gmail.com",
+      "telephone": "01273 476707",
+      "id": "bc67"
+    },
+    {
+      "ID": 4,
+      "firstName": "Trevor",
+      "lastName": "Mackenzie",
+      "email": "T.Mackenzie48@gmail.com",
+      "telephone": "01274 729141",
+      "id": "8065"
+    },
+    {
+      "ID": 5,
+      "firstName": "Alexander",
+      "lastName": "Ross",
+      "email": "A.Ross423@gmail.com",
+      "telephone": "0121 706 8101",
+      "id": "fce2"
+    },
+    {
+      "ID": 6,
+      "firstName": "Dan",
+      "lastName": "Simpson",
+      "email": "D.Simpson647@gmail.com",
+      "telephone": "01323 761372",
+      "id": "42b4"
+    },
+    {
+      "ID": 7,
+      "firstName": "Eric",
+      "lastName": "Walker",
+      "email": "E.Walker33@gmail.com",
+      "telephone": "0131 516 2690",
+      "id": "c528"
+    },
+    {
+      "ID": 8,
+      "firstName": "James",
+      "lastName": "King",
+      "email": "J.King769@gmail.com",
+      "telephone": "01273 911149",
+      "id": "6842"
+    },
+    {
+      "ID": 9,
+      "firstName": "Nicholas",
+      "lastName": "Gray",
+      "email": "N.Gray43gmail.com",
+      "telephone": "01462 892367",
+      "id": "8e46"
+    },
+    {
+      "ID": 10,
+      "firstName": "Zoe",
+      "lastName": "Hill",
+      "email": "zoe-Hill78gmail.com",
+      "telephone": "01297 445008",
+      "id": "0185"
+    },
+    {
+      "ID": 11,
+      "firstName": "Christopher",
+      "lastName": "Duncan",
+      "email": "Chris.Duncan74gmail.com",
+      "telephone": "0113 230 0600",
+      "id": "fab4"
+    },
+    {
+      "ID": 12,
+      "firstName": "Leah",
+      "lastName": "Davies",
+      "email": "L.Davies63gmail.com",
+      "telephone": "0844 477 0926",
+      "id": "2a41"
+    },
+    {
+      "ID": 13,
+      "firstName": "Grace",
+      "lastName": "Butler",
+      "email": "Grace-Butler34gmail.com",
+      "telephone": "0845 309 6369",
+      "id": "f609"
+    },
+    {
+      "ID": 14,
+      "firstName": "Elizabeth",
+      "lastName": "Baker",
+      "email": "Liz.Baker455@gmail.com",
+      "telephone": "01324 486733",
+      "id": "c7d8"
+    },
+    {
+      "ID": 15,
+      "firstName": "Edward",
+      "lastName": "Abraham",
+      "email": "ed.Abraham31@gmail.com",
+      "telephone": "01246 277188",
+      "id": "18c0"
     }
   ],
   "properties": [
     {
-      "property-id": 1,
+      "property_id": 1,
       "address": {
         "firstLine": "Bridgford Rd",
         "city": "West Bridgford",
@@ -37,10 +267,10 @@
       "bedrooms": 7,
       "bathrooms": 5,
       "garden": true,
-      "id": "a983"
+      "id": "7101"
     },
     {
-      "property-id": 2,
+      "property_id": 2,
       "address": {
         "firstLine": "Park Lane",
         "city": "London",
@@ -62,10 +292,10 @@
       "bedrooms": 5,
       "bathrooms": 4,
       "garden": false,
-      "id": "5b6f"
+      "id": "c4ce"
     },
     {
-      "property-id": 3,
+      "property_id": 3,
       "address": {
         "firstLine": "Elm Street",
         "city": "Springfield",
@@ -87,10 +317,10 @@
       "bedrooms": 3,
       "bathrooms": 2,
       "garden": true,
-      "id": "d7e2"
+      "id": "8e5d"
     },
     {
-      "property-id": 4,
+      "property_id": 4,
       "address": {
         "firstLine": "Ocean Avenue",
         "city": "Amityville",
@@ -112,10 +342,10 @@
       "bedrooms": 5,
       "bathrooms": 3,
       "garden": true,
-      "id": "f166"
+      "id": "884c"
     },
     {
-      "property-id": 5,
+      "property_id": 5,
       "address": {
         "firstLine": "123 Main St",
         "city": "Anytown",
@@ -137,10 +367,10 @@
       "bedrooms": 4,
       "bathrooms": 2,
       "garden": false,
-      "id": "ea6d"
+      "id": "ad40"
     },
     {
-      "property-id": 6,
+      "property_id": 6,
       "address": {
         "firstLine": "Maple Avenue",
         "city": "Sunnydale",
@@ -162,10 +392,10 @@
       "bedrooms": 3,
       "bathrooms": 3,
       "garden": true,
-      "id": "667c"
+      "id": "f842"
     },
     {
-      "property-id": 7,
+      "property_id": 7,
       "address": {
         "firstLine": "Elm Street",
         "city": "Springwood",
@@ -187,10 +417,10 @@
       "bedrooms": 6,
       "bathrooms": 4,
       "garden": false,
-      "id": "3c80"
+      "id": "e5be"
     },
     {
-      "property-id": 8,
+      "property_id": 8,
       "address": {
         "firstLine": "Evergreen Terrace",
         "city": "Springfield",
@@ -212,10 +442,10 @@
       "bedrooms": 4,
       "bathrooms": 3,
       "garden": true,
-      "id": "9eb7"
+      "id": "39f7"
     },
     {
-      "property-id": 9,
+      "property_id": 9,
       "address": {
         "firstLine": "742 Evergreen Terrace",
         "city": "Springfield",
@@ -237,10 +467,10 @@
       "bedrooms": 5,
       "bathrooms": 3,
       "garden": true,
-      "id": "7b29"
+      "id": "15b0"
     },
     {
-      "property-id": 10,
+      "property_id": 10,
       "address": {
         "firstLine": "Sherlock Holmes St",
         "city": "London",
@@ -262,10 +492,10 @@
       "bedrooms": 2,
       "bathrooms": 2,
       "garden": false,
-      "id": "d69d"
+      "id": "de51"
     },
     {
-      "property-id": 11,
+      "property_id": 11,
       "address": {
         "firstLine": "221B Baker Street",
         "city": "London",
@@ -287,10 +517,10 @@
       "bedrooms": 4,
       "bathrooms": 3,
       "garden": true,
-      "id": "e073"
+      "id": "cbe6"
     },
     {
-      "property-id": 12,
+      "property_id": 12,
       "address": {
         "firstLine": "1313 Mockingbird Lane",
         "city": "Mockingbird Heights",
@@ -312,10 +542,10 @@
       "bedrooms": 6,
       "bathrooms": 5,
       "garden": true,
-      "id": "843e"
+      "id": "8802"
     },
     {
-      "property-id": 13,
+      "property_id": 13,
       "address": {
         "firstLine": "Elm Street",
         "city": "Springwood",
@@ -337,10 +567,10 @@
       "bedrooms": 6,
       "bathrooms": 4,
       "garden": false,
-      "id": "79c9"
+      "id": "bf8a"
     },
     {
-      "property-id": 14,
+      "property_id": 14,
       "address": {
         "firstLine": "1 Infinite Loop",
         "city": "Cupertino",
@@ -362,32 +592,7 @@
       "bedrooms": 0,
       "bathrooms": 0,
       "garden": false,
-      "id": "8f7c"
-    },
-    {
-      "id": "7ffd",
-      "property_id": 15,
-      "address": {
-        "firstLine": "example",
-        "city": "examplecity",
-        "postcode": "postcode "
-      },
-      "img": {
-        "thumbnail": "",
-        "img3": "",
-        "img4": "",
-        "img2": "",
-        "img5": "",
-        "img6": "",
-        "img7": "",
-        "img8": "",
-        "img9": ""
-      },
-      "price": "3984",
-      "type": "Detachted",
-      "bedrooms": "5",
-      "bathrooms": "3",
-      "garden": true
+      "id": "dbbc"
     }
   ]
 }
