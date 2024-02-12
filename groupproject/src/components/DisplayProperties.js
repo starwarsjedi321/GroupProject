@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/displayproperties.css"
 import Properties from "../database/Properties.json";
 import { Link, useParams } from 'react-router-dom'
+import checkQuery from '../utils/checkQuery';
 
 function DisplayProperties() {
 
@@ -11,6 +12,7 @@ function DisplayProperties() {
   let { query } = useParams();
 
   if (query) {
+    query = checkQuery(query);
     properties.forEach(property => {
       if (Object.values(property.address).includes(query)) {
         filteredProperties.push(property)
