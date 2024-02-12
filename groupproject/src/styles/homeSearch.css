@@ -1,0 +1,25 @@
+div .homeSearch {
+    background-color: #BFD8AF;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-style: none;
+}
+
+div .homeSearch:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+div .searchNav {
+    background-color: #BFD8AF;
+}
+
+h2, h4 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+button .searchBtn {
+    padding-left: 5em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+}

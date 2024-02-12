@@ -8,6 +8,7 @@ import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
 // Import page components below
 import PropertyForm from './components/propertyForm.js';
+import SellerForm from './components/SellerForm.js';
 import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 import DisplaySellers from './components/DisplaySellers.js'
 
@@ -26,7 +27,7 @@ function App() {
             />
             <Route 
             path="register-seller"
-            element={<DisplaySellers user="Sellers"/>}
+            element={[<SellerForm/>, <DisplaySellers user="Sellers"/>]}
             />
             <Route
             path="register-buyer"
@@ -41,7 +42,7 @@ function App() {
             path="about-us"
             element={<>about us</>}
             />
-            <Route path='properties/view/:property_id' element={<DisplaySelectedProperty/>}></Route>
+            <Route path='view/:property_id' element={<DisplaySelectedProperty/>}></Route>
             <Route
             path="sign-in"
             element={<>sign in</>}
