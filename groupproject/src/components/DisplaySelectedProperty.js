@@ -9,7 +9,7 @@ function DisplaySelectedProperty() {
     let { property_id } = useParams();
     property_id = Number(property_id);
 
-    const getPropertyDetails = Properties.filter(property => {
+    const getPropertyDetails = Properties.properties.filter(property => {
         if (property_id === property.property_id) return property;
     })
 
@@ -32,10 +32,6 @@ function DisplaySelectedProperty() {
             <p>Bedrooms {getPropertyDetails[0].bedrooms}</p>
             <p>Bathrooms {getPropertyDetails[0].bathrooms}</p>
             <p>Garden {getPropertyDetails[0].garden}</p>
-
-
-
-
         </div>
     )
 }
