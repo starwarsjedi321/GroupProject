@@ -40,7 +40,7 @@ function App() {
             path="about-us"
             element={<>about us</>}
             />
-            <Route path='properties/view/:property_id' element={<DisplaySelectedProperty/>}></Route>
+            <Route path='view/:property_id' element={<DisplaySelectedProperty/>}></Route>
             <Route
             path="sign-in"
             element={<>sign in</>}

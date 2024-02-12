@@ -5,11 +5,6 @@ import { Link } from 'react-router-dom';
 const HomeSearch = () => {
     let [search, setSearch] = useState("");
 
-    function setSubstring() {
-        setSearch(document.getElementById("propSearchField").value);
-        console.log(search);
-    }
-
     return (
         <div name="searchNav">
             <h2>Find Your Dream Home</h2>
@@ -18,7 +13,7 @@ const HomeSearch = () => {
                 setSearch(event.target.value)
             }}></input>
             <Link to={`/properties/${search}`}>
-            <button id="searchBtn" onClick={setSubstring}>Search</button>
+            <button id="searchBtn">Search</button>
             </Link>
         </div>
     )
