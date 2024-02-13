@@ -11,6 +11,8 @@ html, body, #root, .App, .App-header {
 
 nav, main {
     display: flex;
+    justify-content: center;
+    
 }
 
 .App-header {
@@ -93,6 +95,9 @@ main {
     padding: 1em;
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 

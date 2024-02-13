@@ -116,7 +116,7 @@
       "ID": 15,
       "firstName": "Wallace",
       "lastName": "Gordon",
-      "email": "wallace-123@gmail.com",
+      "email": "wallace123@gmail.com",
       "telephone": "07418394628",
       "id": "2295"
     },
@@ -127,6 +127,22 @@
       "lastName": "The Big Red Dog",
       "email": "cliff@big",
       "telephone": "123"
+    },
+    {
+      "id": "ba64",
+      "ID": 17,
+      "firstName": "Max",
+      "lastName": "The Dog",
+      "email": "max@dog",
+      "telephone": "12345"
+    },
+    {
+      "id": "4e94",
+      "ID": 18,
+      "firstName": "harry",
+      "lastName": "potter",
+      "email": "l@hogrwa",
+      "telephone": "45678"
     }
   ],
   "sellers": [

@@ -31,11 +31,11 @@ function App() {
             />
             <Route 
             path="register-seller"
-            element={[<SellerForm/>, <DisplaySellers user="Sellers"/>]}
+            element={[<SellerForm/>, <DisplaySellers user="Seller"/>]}
             />
             <Route
             path="register-buyer"
-            element= {[<Buyerform />, <DisplaySellers user="Buyers"/>]}
+            element= {[<Buyerform />, <DisplaySellers user="Buyer"/>]}
             />
             <Route
             path="properties/:query"

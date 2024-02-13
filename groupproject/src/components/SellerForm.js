@@ -77,44 +77,51 @@ export default function (props){
 return(
     <form id = "form1" onSubmit={(event) => {handleSubmit(event)}}>
         <fieldset className = "wrapper">
-            <legend className = "title"> Seller</legend>
-            <label for="firstName">First Name
+            <legend className = "title">Register As A New Seller</legend>
+
+            <b className='labels'>First Name</b>
                 <input 
                     type = "text"
                     name = "firstName"
                     id ="firstName"
                     onChange={(event => setfirstName(event.target.value))} 
                     required="required"
+                    className='fields'
                 />
-            </label><br/>
-            <label for ="lastName">Last Name
+            <br/>
+
+            <b className='labels'>Last Name</b>
                 <input
                  type = "text"
                  name = "lastName"
                  id ="lastName"
                  onChange={(event => setlastName(event.target.value))} 
                 required="required"
+                className='fields'
                 />
-            </label><br/>
-            <label for = "email">Email
+            <br/>
+
+            <b className='labels'>Email</b>
                 <input
                 type = "email"
                 name = "email"
                 id ="email"
                 onChange={(event => setemail(event.target.value))} 
                 required="required"
+                className='fields'
                 />
-            </label><br/>
-            <label for = "telephone">Telephone
+            <br/>
+            <b className='labels'>Telephone</b>
                 <input
                 type = "text"
                 name = "telephone"
                 id = "telephone"
                 onChange={(event => settelephone(event.target.value))} 
                 required="required"
+                className='fields'
                 />
-            </label><br/>
-            <button form = "form1"> Save  </button>
+            <br/>
+            <button className='submit' form = "form1"> Save  </button>
         </fieldset>
     </form>
 )
