@@ -18,9 +18,6 @@ const DisplaySellers = (props) => {
     return (
         <div>
 
-            
-
-            
             <h1>Find {props.user}</h1>
 
             <table name="sellerData">
