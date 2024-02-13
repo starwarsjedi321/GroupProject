@@ -1,9 +1,9 @@
 .homeSearch {
     background-color: #BFD8AF;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;
-    border-style: white;
+    border-style: none;
+    min-width: 60%;
+    
 }
 div .searchNav {
     background-color: #BFD8AF;
@@ -16,6 +16,8 @@ h2, h4 {
 button .searchBtn {
     padding-left: 5em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imageContainer {
@@ -41,4 +43,45 @@ button .searchBtn {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
+
+.alice-carousel {
+    width: 50%;
+    padding: 5px;
+}
+.alice-carousel__next-btn {
+    text-align: left;
+}
+
+.carousel-item {
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-container {
+    width: 100%;
+}
+
+.propImg {
+    width: 100%;
+}
+
+
+.overlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #55d37b00;
+    cursor: pointer;
+    z-index: 2;
+}
+.carouselContainer:hover {
+    opacity: 1;
+}
