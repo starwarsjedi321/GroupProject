@@ -1,0 +1,23 @@
+.total {
+    width: 100%;
+    border-radius: 25px;
+    border-color: #a5b39d;
+    border-width: 5px;
+    align-items: center;
+
+}
+
+table {
+    width: 100%;
+    
+    
+}
+
+th {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+tr, td {
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 import { React } from 'react';
-import '../styles/tables.css';
+import '../styles/displayUsers.css';
 import data from '../database/Properties.json';
 
 const DisplaySellers = (props) => {
@@ -16,12 +16,9 @@ const DisplaySellers = (props) => {
     }
 
     return (
-        <div>
-
-            
-
-            
+        <div className="total">
             <h1>Find {props.user}</h1>
+            <br />
 
             <table name="sellerData">
                 <tr>

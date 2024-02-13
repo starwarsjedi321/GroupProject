@@ -50,24 +50,25 @@ export default function(props){
         <form id="form1" onSubmit={(event) => {handleSubmit(event)}}>
             <fieldset className="wrapper">
                 <legend className="title">Register As A New Buyer</legend>
-
-                <b>First Name</b>
-                <input type='text' value={firstName} name='firstName' onChange={(event => setFirstName(event.target.value))} required="required"></input>
+                <br></br>
+                <b className='labels'>First Name</b>
+                <input className='fields' type='text' value={firstName} name='firstName' onChange={(event => setFirstName(event.target.value))} required="required"></input>
                 <br/>
                 
-                <b>Last Name</b>
-                <input type='text' name='lastName' value={lastName} onChange={(event => setLastName(event.target.value))} required="required"></input>
+                <b className='labels'>Last Name</b>
+                <input className='fields' type='text' name='lastName' value={lastName} onChange={(event => setLastName(event.target.value))} required="required"></input>
                 <br />
 
-                <b>Email</b>
-                <input type='email' name='email' value={email} onChange={(event => setEmail(event.target.value))} required="required"></input>
+                <b className='labels'>Email</b>
+                <input className='fields' type='email' name='email' value={email} onChange={(event => setEmail(event.target.value))} required="required"></input>
                 <br />
 
-                <b>Telephone</b>
-                <input type='text' name='telephone' value={telephone} onChange={(event => setTelephone(event.target.value))} required="required"></input>
+                <b className='labels'>Telephone</b>
+                <input className='fields' type='text' name='telephone' value={telephone} onChange={(event => setTelephone(event.target.value))} required="required"></input>
+                <br />
                 <br />
 
-                <button type="submit" form="form1">Save</button>
+                <button className='submit' type="submit" form="form1">Save</button>
 
             </fieldset>
         </form>
