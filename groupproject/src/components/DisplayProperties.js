@@ -7,6 +7,13 @@ import DeleteObject from '../components/deleteFunction.js';
 
 function DisplayProperties() {
 
+  function deleteCall (key) {
+    if (confirm("Are you sure you want to delete this property?")) {
+      DeleteObject("properties", key)
+    }
+ 
+  }
+
   let filteredProperties = [];
   const properties = Properties.properties;
 
@@ -39,10 +46,10 @@ function DisplayProperties() {
                 <li >{property.address.city}</li>
                 <li>{"£" + property.price}</li>
                 <li>{property.type}</li>
-                {console.log(property.property_id)}
               </div>
             </Link>
-                          {/* <button onClick={DeleteObject()}>DO NOT PRESS ME</button> */}
+            {/* {console.log(property.property_id)} */}
+                          <input value="button for delete" name={property.id} type="button" onClick={event => {deleteCall(event.target.name)}}/>
                           </> 
           )
         })}
