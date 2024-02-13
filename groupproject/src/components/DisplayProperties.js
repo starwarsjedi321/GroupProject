@@ -3,6 +3,9 @@ import "../styles/displayproperties.css"
 import Properties from "../database/Properties.json";
 import { Link, useParams } from 'react-router-dom'
 import checkQuery from '../utils/checkQuery';
+import email from '../Images/email.png';
+import heart from '../Images/heart.png';
+import phone from '../Images/phone.png';
 
 function DisplayProperties() {
 
@@ -38,6 +41,11 @@ function DisplayProperties() {
                 <li >{property.address.city}</li>
                 <li>{"£" + property.price}</li>
                 <li >{property.type}</li>
+                <div className='icon-container'>
+                  <p className='icon' target="_blank"><img id="eamil" name="Icons" alt="email" src={email} class = "icon"></img></p>
+                  <p className='icon' target="_blank"><img id="phone" name="Icons" alt="phone" src={phone} class = "icon"></img></p>
+                  <p className='icon' target="_blank"><img id="heart" name="Icons" alt="heart" src={heart} class = "icon"></img></p>
+                </div>
                 </div>
               </div>
             </Link>
