@@ -17,6 +17,11 @@ nav, main {
     flex-direction: column;
 }
 
+.delete-btn {
+    width: min-content;
+    height: min-content;
+}
+
 .layoutHeader {
     min-height: 10%;
     background-color: whitesmoke;
