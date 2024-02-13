@@ -67,7 +67,6 @@ function DisplayProperties() {
                   <p className='icon' target="_blank"><img id="heart" name="Icons" alt="heart" src={heart} class = "icon"></img></p>
                 </div>
                 </div>
-              </div>
             </Link>
           )
         })}
