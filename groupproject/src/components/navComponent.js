@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../Images/Wrongmove__2_-removebg-preview.png';
+import Logo from '../Images/Wrongmove__1_-removebg-preview.png';
 
 const Navbar = () => {
   return (
     <nav>
         <li>
             <div className="img-container"><img src={Logo}/>
-            <div className="overlay-text">Wrongmove</div>
             </div>
         </li>
         <li>
