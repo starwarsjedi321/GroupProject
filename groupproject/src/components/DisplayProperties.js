@@ -15,8 +15,8 @@ function DisplayProperties() {
 
   let properties = sortingProperties(Properties, filterBy);
   let filteredProperties = [];
-  
-    console.log(properties);
+
+  console.log(properties);
   let { query } = useParams();
 
   if (query) {
@@ -40,7 +40,7 @@ function DisplayProperties() {
       <ul className='filter-list'>
         <li>{`${totalSearchResult} results`}</li>
         <li>Sort:
-          <select onChange={(event) => {setFilter(event.target.value)}}>
+          <select onChange={(event) => { setFilter(event.target.value) }}>
             <option value="Highest Price">Highest Price</option>
             <option value="Lowest Price">Lowest Price</option>
             <option value="Newest Listed">Newest Listed</option>
@@ -54,18 +54,19 @@ function DisplayProperties() {
           time = property.timeUploaded.split(regexTimeNumeric);
           return (
             <>
-            <Link to={`/view/${property.property_id}`}>
               <div className='property-card'>
-                <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
-                <li>{time}</li>
-                <li >{property.address.city}</li>
-                <li>{"£" + property.price}</li>
-                <li>{property.type}</li>
+                <Link to={`/view/${property.property_id}`}>
+                  <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
+                  <li>{time}</li>
+                  <li >{property.address.city}</li>
+                  <li>{"£" + property.price}</li>
+                  <li>{property.type}</li>
+                </Link>
+                <li>
+                  <input className='delete-btn' value="button for delete" name={property.id} type="button" onClick={event => { deleteCall(event.target.name) }} />
+                </li>
               </div>
-            </Link>
-            {/* {console.log(property.property_id)} */}
-            <input value="button for delete" name={property.id} type="button" onClick={event => {deleteCall(event.target.name)}}/>
-            </> 
+            </>
           )
         })}
       </ul></>
