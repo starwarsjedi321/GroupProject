@@ -78,7 +78,7 @@ return(
     <form id = "form1" onSubmit={(event) => {handleSubmit(event)}}>
         <fieldset className = "wrapper">
             <legend className = "title"> Seller</legend>
-            <label for="firstName">First Name
+            <b>First Name</b>
                 <input 
                     type = "text"
                     name = "firstName"
@@ -86,7 +86,7 @@ return(
                     onChange={(event => setfirstName(event.target.value))} 
                     required="required"
                 />
-            </label><br/>
+            <br/>
             <label for ="lastName">Last Name
                 <input
                  type = "text"
