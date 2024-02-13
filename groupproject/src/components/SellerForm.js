@@ -1,6 +1,8 @@
 import react, { useState } from 'react';
 import { ReactDOM } from 'react';
 import properties from '../database/Properties.json';
+import '../styles/form.css';
+
 
 export default function (props){
    // const[inputs, setInputs] = useState();
@@ -74,8 +76,8 @@ export default function (props){
 
 return(
     <form id = "form1" onSubmit={(event) => {handleSubmit(event)}}>
-        <fieldset>
-            <legend> Seller</legend>
+        <fieldset className = "wrapper">
+            <legend className = "title"> Seller</legend>
             <label for="firstName">First Name
                 <input 
                     type = "text"

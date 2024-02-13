@@ -119,6 +119,14 @@
       "email": "wallace-123@gmail.com",
       "telephone": "07418394628",
       "id": "2295"
+    },
+    {
+      "id": "883e",
+      "ID": 16,
+      "firstName": "Clifford",
+      "lastName": "The Big Red Dog",
+      "email": "cliff@big",
+      "telephone": "123"
     }
   ],
   "sellers": [
@@ -250,7 +258,7 @@
       "description": "Nestled in the heart of a tranquil forest, this charming cottage offers a serene escape from the hustle and bustle of city life. Featuring rustic decor, a crackling fireplace, and a private deck overlooking a babbling brook, it's the perfect spot for nature lovers seeking relaxation.",
       "address": {
         "firstLine": "Bridgford Rd",
-        "city": "West Bridgford",
+        "city": "Manchester",
         "postcode": "NG2 6AG"
       },
       "img": {
@@ -276,7 +284,7 @@
       "description": "Located in a vibrant downtown neighborhood, this sleek loft boasts floor-to-ceiling windows, exposed brick walls, and industrial-chic furnishings. With its open-concept design and rooftop patio with skyline views, it's ideal for cosmopolitan professionals seeking a stylish urban oasis.",
       "address": {
         "firstLine": "Park Lane",
-        "city": "london",
+        "city": "London",
         "postcode": "W1K 7TY"
       },
       "img": {
@@ -302,7 +310,7 @@
       "description": "Perched on a cliff overlooking crystal-clear waters, this luxurious villa offers panoramic ocean views and direct beach access. With spacious living areas, a gourmet kitchen, and a infinity pool, it's an idyllic retreat for discerning travelers seeking coastal elegance.",
       "address": {
         "firstLine": "Elm Street",
-        "city": "Springfield",
+        "city": "Manchester",
         "postcode": "12345"
       },
       "img": {
@@ -328,7 +336,7 @@
       "description": " Set amidst rolling hills and meandering country roads, this quaint farmhouse exudes charm and character. With its wraparound porch, flower-filled gardens, and cozy interiors, it's the perfect escape for those craving a simpler way of life.",
       "address": {
         "firstLine": "Ocean Avenue",
-        "city": "Amityville",
+        "city": "Liverpool",
         "postcode": "11701"
       },
       "img": {
@@ -354,7 +362,7 @@
       "description": "Tucked away in a picturesque mountain village, this inviting chalet is the ultimate winter getaway. Featuring a stone fireplace, hot tub, and ski-in/ski-out access, it's an ideal retreat for outdoor enthusiasts seeking adventure on the slopes.",
       "address": {
         "firstLine": "123 Main St",
-        "city": "Anytown",
+        "city": "Liverpool",
         "postcode": "54321"
       },
       "img": {
@@ -380,7 +388,7 @@
       "description": " Situated in a historic district, this elegant brownstone combines old-world charm with modern amenities. With its original architectural details, gourmet kitchen, and private courtyard garden, it's a sophisticated urban retreat for those who appreciate timeless elegance.",
       "address": {
         "firstLine": "Maple Avenue",
-        "city": "Sunnydale",
+        "city": "Birmingham",
         "postcode": "90120"
       },
       "img": {
@@ -406,7 +414,7 @@
       "description": "Surrounded by majestic desert landscapes, this sprawling estate offers unparalleled privacy and luxury. With a sparkling pool, lush gardens, and outdoor entertainment spaces, it's an oasis of tranquility for those seeking relaxation under the desert sun.",
       "address": {
         "firstLine": "Elm Street",
-        "city": "Springwood",
+        "city": "Birmingham",
         "postcode": "45678"
       },
       "img": {
@@ -432,7 +440,7 @@
       "description": "Tucked away in a secluded forest, this cozy cabin offers a peaceful escape from everyday life. With its wood-paneled interiors, stone fireplace, and scenic views, it's the perfect retreat for nature lovers seeking solace in the mountains.",
       "address": {
         "firstLine": "Evergreen Terrace",
-        "city": "Springfield",
+        "city": "Birmingham",
         "postcode": "12345"
       },
       "img": {
@@ -458,7 +466,7 @@
       "description": "Located steps away from the sandy shores, this modern condo offers breathtaking ocean views and resort-style amenities. With its sleek design, gourmet kitchen, and private balcony, it's an ideal coastal retreat for those seeking luxury by the sea.",
       "address": {
         "firstLine": "742 Evergreen Terrace",
-        "city": "Springfield",
+        "city": "Birmingham",
         "postcode": "12345"
       },
       "img": {
@@ -536,7 +544,7 @@
       "description": "Hidden away on a secluded island, this charming bungalow offers a tranquil escape surrounded by lush tropical foliage and pristine beaches. With its hammock-strewn veranda, outdoor shower, and ocean breezes, it's a slice of paradise for those seeking relaxation in nature.",
       "address": {
         "firstLine": "1313 Mockingbird Lane",
-        "city": "Mockingbird Heights",
+        "city": "London",
         "postcode": "66666"
       },
       "img": {
@@ -562,7 +570,7 @@
       "description": "Perched on the edge of a scenic canyon, this modern retreat offers stunning mountain vistas and access to miles of hiking trails. With its expansive deck, hot tub, and floor-to-ceiling windows, it's an ideal haven for outdoor enthusiasts seeking adventure and rejuvenation.",
       "address": {
         "firstLine": "Elm Street",
-        "city": "Springwood",
+        "city": "Manchester",
         "postcode": "45678"
       },
       "img": {
@@ -588,7 +596,7 @@
       "description": "Occupying the top floor of a prestigious skyscraper, this luxurious penthouse offers unrivaled city views and opulent amenities. With its spacious layout, designer finishes, and rooftop terrace with a private pool, it's a sanctuary for those who appreciate the finer things in life.",
       "address": {
         "firstLine": "1 Infinite Loop",
-        "city": "Cupertino",
+        "city": "Manchester",
         "postcode": "95014"
       },
       "img": {
