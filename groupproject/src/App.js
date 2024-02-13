@@ -3,12 +3,18 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Layout from './components/layoutComponent';
 import './styles/layout.css';
+// Import page components below
+import PropertyForm from './components/propertyForm.js';
+import SellerForm from './components/SellerForm.js';
+import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 import Buyerform from './components/Buyerform';
 import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
-// Import page components below
-import PropertyForm from './components/propertyForm.js';
-import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
+import AboutUs from './components/aboutUs.js';
+
+
+
+import DisplaySellers from './components/DisplaySellers.js'
 
 function App() {
   return (
@@ -25,11 +31,11 @@ function App() {
             />
             <Route 
             path="register-seller"
-            element={<>seller test</>}
+            element={[<SellerForm/>, <DisplaySellers user="Sellers"/>]}
             />
             <Route
             path="register-buyer"
-            element= {[<Buyerform />]}
+            element= {[<Buyerform />, <DisplaySellers user="Buyers"/>]}
             />
             <Route
             path="properties/:query"
