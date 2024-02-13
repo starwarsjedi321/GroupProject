@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
     margin-top: 5em;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
