@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/qalimited/" target="_blank"><img id="insta" name="socialIcon" alt="INSTA" src={insta}></img></a>
                 <a href="https://uk.linkedin.com/company/qa-ltd/jobs" target="_blank"><img id="li" name="socialIcon" alt="LI" src={li}></img></a>
             </div>
-            <p>© QA Properties Ltd. All Rights Reserved. </p>
+            <p>© Wrongmove Ltd. All Rights Reserved. </p>
         </div>
     );
 }

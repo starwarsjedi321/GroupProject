@@ -1,27 +1,12 @@
 import { React } from 'react';
 import '../styles/tables.css';
-import data from '../database/Properties.json';
+import data from '../database/Seller.json';
 
-const DisplaySellers = (props) => {
-
-    // Checking which page we are on to display either buyer or seller
-
-    let display;
-
-    if (props.user == "Sellers") {
-        display = data.sellers;
-    }
-    else if (props.user == "Buyers") {
-        display = data.buyers;
-    }
+const DisplaySellers = () => {
 
     return (
         <div>
-
-            
-
-            
-            <h1>Find {props.user}</h1>
+            <h1>Find Sellers</h1>
 
             <table name="sellerData">
                 <tr>
@@ -29,14 +14,16 @@ const DisplaySellers = (props) => {
                     <th>Forename: </th>
                     <th>Surname: </th>
                     <th>Email: </th>
+                    <th>Telephone: </th>
                 </tr>
-                {display.map((details) => {
+                {data.map((details) => {
                     return (
                         <tr key={details.id} >
                             <td>{details.ID}</td>
                             <td>{details.firstName}</td>
                             <td>{details.lastName}</td>
                             <td>{details.email}</td>
+                            <td>{details.telephone}</td>
                         </tr>
                     )
                 }

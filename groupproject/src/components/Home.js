@@ -1,11 +1,8 @@
 import { React } from 'react';
-import HomeSearch from "../components/HomeSearch";
 
 const Home = () => {
     return (
-        <>
-        <HomeSearch/>
-        </>
+        <h1> Home </h1>
     )
 }
 

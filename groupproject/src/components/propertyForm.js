@@ -1,77 +1,47 @@
 import { React } from 'react';
 import { useState } from 'react';
-import Properties from '../database/Properties.json';
 
-export default () => {
+        let data;
+export default (properties) => {
+    let [inputs, setInputs] = useState();
 
-    let [firstLine, setFirstLine] = useState("");
-    let [city, setCity] = useState();
-    let [postCode, setPostCode] = useState();
-    let [bathroom, setBathroom] = useState();
-    let [bedroom, setBedroom] = useState();
-    let [garden, setGarden] = useState();
-    let [price, setPrice] = useState();
-    let [type, setType] = useState();
-
-    function onSubmit() {
-        let propertyLength = Properties.properties.length + 1
-        let properties = {
-            property_id: propertyLength,
-            "address": {
-                "firstLine": firstLine,
-                "city": city,
-                "postcode": postCode
-            },
-            "img": {
-                "thumbnail": "",
-                "img3": "",
-                "img4": "",
-                "img2": "",
-                "img5": "",
-                "img6": "",
-                "img7": "",
-                "img8": "",
-                "img9": ""
-            },
-            "price": price,
-            "type": type,
-            "bedrooms": bedroom,
-            "bathrooms": bathroom,
-            "garden": garden
-        }
-
-        postData('http://localhost:3000/properties', properties);
-    }
-
-    // Function to be called for posting data to the json DB, takes paraments url and data (object)
     async function postData(url = '', data = {}) {
         const response = await fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        })
-        return response.json()
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+              })
+              return response.json()
+            }
+
+    function doInput(event) {
+        if (event.target.name) {
+            let newData = { ...inputs }
+            newData[event.target.name] = event.target.value;
+            setInputs(newData);
+        }
     }
 
     return (
         <fieldset>
             <legend>Register Property</legend>
-            <form onSubmit={onSubmit}>
+            <form action={event => doInput(event).then(
+                postData("http://localhost:3000/properties", {inputs}))}>
                 <p>Address:</p>
-                <label>First line: <input required onChange={event => setFirstLine(event.target.value)} name="firstLine" value={firstLine} />
+                <label>First line: <input name="firstLine" value={properties.address} />
                 </label>
                 <br></br>
-                <label>City: <input required name="city" onChange={event => setCity(event.target.value)} value={city} />
+                <label>City: <input name="city" value={properties.city} />
                 </label>
                 <br></br>
-                <label>Postcode: <input required name="postcode" onChange={event => setPostCode(event.target.value)}value={postCode} /></label>
+                <label>Postcode: <input name="postcode" value={properties.postcode} /></label>
                 <br></br>
-                <label>Price: <input required name="price" onChange={event => setPrice(event.target.value)} value={price} /></label>
+                <label>Price: <input name="price" value={properties.price} /></label>
                 <br></br>
                 <label>Type: </label>
-                <input required type="search" list="typeList" onChange={event => setType(event.target.value)}value={type} />
+                <input type="search" list="typeList" value={properties.type} />
                 <datalist id="typeList">
                     <option>...</option>
                     <option>Detachted</option>
@@ -81,14 +51,13 @@ export default () => {
                     <option>Bungalow</option>
                 </datalist>
                 <br></br>
-                <label>Bedrooms: <input required name="bedrooms" onChange={event => setBedroom(event.target.value)}value={bedroom} /></label>
+                <label>Bedrooms: <input name="bedrooms" value={properties.bedrooms} /></label>
                 <br></br>
-                <label>Bathrooms: <input required name="bathrooms" onChange={event => setBathroom(event.target.value)} value={bathroom} /></label>
+                <label>Bathrooms: <input name="bathrooms" value={properties.bathrooms} /></label>
                 <br></br>
-                <label>Garden: <input type="checkbox" name="garden" onClick={event => setGarden(event.target.checked)}/></label>
-                <button type="submit">Register</button>
+                <label>Garden: <input type="checkbox" name="garden" value={properties.garden} /></label>
+                <input type="submit"/>
             </form>
-
+            <button > Register </button>
         </fieldset>
-    )
-}
+            )}

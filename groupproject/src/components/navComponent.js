@@ -8,7 +8,7 @@ const Navbar = () => {
             <img/><p>img placeholder</p>
         </li>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/register-seller">Register Seller</Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link to="/register-property">Register Property</Link>
         </li>
         <li>
-          <Link to="/properties/all">Properties</Link>
+          <Link to="/properties">Properties</Link>
         </li>
         <li>
             <Link to="/about-us">About us</Link>
