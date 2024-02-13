@@ -8,7 +8,6 @@ import "react-alice-carousel/lib/alice-carousel.css"
 function DisplaySelectedProperty() {
     let { property_id } = useParams();
     property_id = Number(property_id);
-    console.log('im in')
     const getPropertyDetails = Properties.properties.filter(property => {
         if (property_id === property.property_id) return property;
     })
