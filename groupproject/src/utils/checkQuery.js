@@ -1,16 +1,16 @@
 const checkQuery = (query) => {
     const queryArr =  query.split(' ');
-    const newQuery = [];
+    let returnWord;
 
     queryArr.forEach(word => {
-        console.log(word);
-        const splitQueryWord = word.split('');
+        let splitQueryWord = word.split('');
         const firstLetter = splitQueryWord.shift().toUpperCase();
         splitQueryWord.join();
-        // console.log(splitQueryWord);
+        splitQueryWord = splitQueryWord.join('');
+        returnWord = firstLetter + splitQueryWord;
     });
 
-    // console.log(newQuery);
+    return returnWord;
 }
 
 export default checkQuery;

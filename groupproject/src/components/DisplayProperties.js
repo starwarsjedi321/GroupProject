@@ -16,15 +16,15 @@ function DisplayProperties() {
     properties.forEach(property => {
       if (Object.values(property.address).includes(query)) {
         filteredProperties.push(property)
-      } 
-    }) 
+      };
+    });
   };
 
   const chosenArray = filteredProperties.length === 0 ? Properties.properties : filteredProperties;
 
   return (
     <>
-      {query !== 'all' ?
+      {query !== 'All' ?
         <h1>{`Properties in ${query}`}</h1>
         : <h1>{`Available Properties`}</h1>
       }
