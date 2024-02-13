@@ -34,9 +34,11 @@ function DisplayProperties() {
             <Link to={`/view/${property.property_id}`}>
               <div className='property-card'>
                 <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
+                <div className='property-text'>
                 <li >{property.address.city}</li>
                 <li>{"£" + property.price}</li>
-                <li>{property.type}</li>
+                <li >{property.type}</li>
+                </div>
               </div>
             </Link>
           )
