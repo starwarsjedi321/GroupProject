@@ -11,10 +11,9 @@ import Buyerform from './components/Buyerform';
 import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
 import AboutUs from './components/aboutUs.js';
-// Import page components below
-import PropertyForm from './components/propertyForm.js';
-import SellerForm from './components/SellerForm.js';
-import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
+
+
+
 
 function App() {
   return (
