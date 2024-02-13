@@ -4,6 +4,7 @@ import Properties from "../database/Properties.json";
 import { Link, useParams } from 'react-router-dom'
 import checkQuery from '../utils/checkQuery';
 import sortingProperties from '../utils/sortingProperties';
+import deleteCall from '../utils/deleteCall';
 
 function DisplayProperties() {
 
@@ -52,6 +53,7 @@ function DisplayProperties() {
           let time = property.timeUploaded;
           time = property.timeUploaded.split(regexTimeNumeric);
           return (
+            <>
             <Link to={`/view/${property.property_id}`}>
               <div className='property-card'>
                 <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
@@ -61,6 +63,9 @@ function DisplayProperties() {
                 <li>{property.type}</li>
               </div>
             </Link>
+            {/* {console.log(property.property_id)} */}
+            <input value="button for delete" name={property.id} type="button" onClick={event => {deleteCall(event.target.name)}}/>
+            </> 
           )
         })}
       </ul></>
@@ -69,4 +74,3 @@ function DisplayProperties() {
 }
 
 export default DisplayProperties;
-
