@@ -7,6 +7,7 @@ import email from '../Images/email.png';
 import heart from '../Images/heart.png';
 import phone from '../Images/phone.png';
 import sortingProperties from '../utils/sortingProperties';
+import deleteCall from '../utils/deleteCall';
 
 function DisplayProperties() {
 
@@ -17,8 +18,8 @@ function DisplayProperties() {
 
   let properties = sortingProperties(Properties, filterBy);
   let filteredProperties = [];
-  
-    console.log(properties);
+
+  console.log(properties);
   let { query } = useParams();
 
   if (query) {
@@ -42,7 +43,7 @@ function DisplayProperties() {
       <ul className='filter-list'>
         <li>{`${totalSearchResult} results`}</li>
         <li>Sort:
-          <select onChange={(event) => {setFilter(event.target.value)}}>
+          <select onChange={(event) => { setFilter(event.target.value) }}>
             <option value="Highest Price">Highest Price</option>
             <option value="Lowest Price">Lowest Price</option>
             <option value="Newest Listed">Newest Listed</option>
@@ -55,19 +56,24 @@ function DisplayProperties() {
           let time = property.timeUploaded;
           time = property.timeUploaded.split(regexTimeNumeric);
           return (
-            <Link to={`/view/${property.property_id}`}>
+            <>
               <div className='property-card'>
-                <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
-                <li >{property.address.city}</li>
-                <li>{"£" + property.price}</li>
-                <li >{property.type}</li>
+                <Link to={`/view/${property.property_id}`}>
+                  <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
+                    <li >{property.address.city}</li>
+                  <li>{"£" + property.price}</li>
+                  <li >{property.type}</li>
+                </Link>
+                <li>
+                  <input className='delete-btn' value="button for delete" name={property.id} type="button" onClick={event => { deleteCall(event.target.name) }} />
+                </li>
                 <div className='icon-container'>
                   <p className='icon' target="_blank"><img id="eamil" name="Icons" alt="email" src={email} class = "icon"></img></p>
                   <p className='icon' target="_blank"><img id="phone" name="Icons" alt="phone" src={phone} class = "icon"></img></p>
                   <p className='icon' target="_blank"><img id="heart" name="Icons" alt="heart" src={heart} class = "icon"></img></p>
                 </div>
                 </div>
-            </Link>
+            </>
           )
         })}
       </ul></>
@@ -76,4 +82,3 @@ function DisplayProperties() {
 }
 
 export default DisplayProperties;
-
