@@ -3,6 +3,7 @@ import "../styles/displayproperties.css"
 import Properties from "../database/Properties.json";
 import { Link, useParams } from 'react-router-dom'
 import checkQuery from '../utils/checkQuery';
+import DeleteObject from '../components/deleteFunction.js';
 
 function DisplayProperties() {
 
@@ -31,14 +32,18 @@ function DisplayProperties() {
       <ul className='property-details'>
         {chosenArray.map(property => {
           return (
+            <>
             <Link to={`/view/${property.property_id}`}>
               <div className='property-card'>
                 <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
                 <li >{property.address.city}</li>
                 <li>{"£" + property.price}</li>
                 <li>{property.type}</li>
+                {console.log(property.property_id)}
               </div>
             </Link>
+                          {/* <button onClick={DeleteObject()}>DO NOT PRESS ME</button> */}
+                          </> 
           )
         })}
       </ul></>
