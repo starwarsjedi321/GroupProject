@@ -15,6 +15,22 @@ export default () => {
     let [type, setType] = useState();
 
     function onSubmit() {
+
+        const options = {
+            timeZone : "Europe/London",
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric"
+          }
+        
+        let timeUploaded = new Date();
+        timeUploaded = timeUploaded.toLocaleString('en-GB', options)
+        
+
         let propertyLength = Properties.properties.length + 1
         let properties = {
             property_id: propertyLength,
@@ -39,7 +55,8 @@ export default () => {
             "type": type,
             "bedrooms": bedroom,
             "bathrooms": bathroom,
-            "garden": garden
+            "garden": garden,
+            "timeUploaded": timeUploaded
         }
 
         postData('http://localhost:3000/properties', properties);
