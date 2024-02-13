@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* General CSS styles for the website */
 /* Common attributes are added in groups at the top */
 /* Specific attributes are added toward the end of the page */
@@ -5,7 +6,7 @@ html, body, #root, .App, .App-header {
     display: flex;
     height: 100vh;
     width: 100vw;
-    font-family: sans-serif;
+    font-family: "Poppins";
 }
 
 nav, main {
@@ -18,7 +19,7 @@ nav, main {
 
 .layoutHeader {
     min-height: 10%;
-    background-color: #E1F0DA;
+    background-color: whitesmoke;
 }
 
 header, footer, li, a {
@@ -58,10 +59,14 @@ nav li:nth-child(2) {
     flex: auto;
 }
 
+li > a {
+    font-weight: 700;
+}
+
 a {
     border-radius: 0.5em;
     padding: 0.5em;
-    font-weight: 750;
+    font-weight: 500;
     color: #555D50;
     text-decoration: none;
 }
@@ -74,7 +79,7 @@ li a:hover {
 
 main {
     flex: auto;
-    background-color: #E1F0DA;
+    background-color: whitesmoke;
     padding: 0 15% 0 15%;
 }
 
