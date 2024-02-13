@@ -30,11 +30,7 @@ const DisplaySellers = (props) => {
                     <th>Surname: </th>
                     <th>Email: </th>
                 </tr>
-<<<<<<< HEAD
-                {data.sellers.map((details) => {
-=======
                 {display.map((details) => {
->>>>>>> 9dbc0072800e30a63979b6eeb50de1193e42a2fa
                     return (
                         <tr key={details.id} >
                             <td>{details.ID}</td>
