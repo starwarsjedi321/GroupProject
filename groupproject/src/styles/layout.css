@@ -15,8 +15,14 @@ nav, main {
     
 }
 
+header {
+    border-bottom: 2px solid rgb(128, 128, 128, 0.1);
+
+}
+
 .App-header {
     flex-direction: column;
+    
 }
 
 .delete-btn {
@@ -29,7 +35,7 @@ nav, main {
     background-color: whitesmoke;
 }
 
-.sectionOne {
+.colour {
     background-color: #292950;
 }
 
@@ -50,6 +56,12 @@ header, footer, li, a {
     transform: translate(-50%, -50%);
 
 }
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    background-color: white;
+}
 
 nav {
     flex:auto;
@@ -61,7 +73,6 @@ nav {
     gap: 1em;
     padding: 0 1em 0 1em; 
     align-items: center;
-    border-radius: 0 0 1em 1em;
     text-wrap: nowrap;
     flex-wrap: wrap;
 }

@@ -2,10 +2,13 @@
     width: 100%;
 }
 
+
+
 .carousel-container {
     display: flex;
     flex-direction: column;
     margin-top: 6em;
+    background-color: white;
 }
 
 .new-home {
