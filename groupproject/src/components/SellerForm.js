@@ -5,26 +5,11 @@ import '../styles/form.css';
 
 
 export default function (props){
-   // const[inputs, setInputs] = useState();
+    
     const[firstName,setfirstName] = useState("");
     const[lastName, setlastName] = useState("");
     const[email, setemail] = useState("");
     const[telephone, settelephone] = useState("");
-
-
-
-   
-    /*const handleSubmit = (event) =>{
-        event.preventDefault();
-        const data = new FormData(event.target);
-        const inputs = Object .fromEntries(data.entries());
-        inputs.properties = data.getAll("Seller");
-        console.log({inputs});
-    }
-    window.onload=function(){
-    const form = document.querySelector("form");
-    form.addEventListener("submit", handleSubmit).preventDefault();
-    }*/
 
     function handleSubmit(event){
         event.preventDefault();
@@ -41,17 +26,6 @@ export default function (props){
             telephone: telephone
         }
     
-    
-
-
-/*document.getElementById('Properties').addEventListener('submit', function(e){
-    e.preventDefault();
-})
-
-//const data = new FormData(this);
-//const Object = Object.fromEntries(FormData.entries());
-*/
-
 
 
         fetch('http://localhost:3000/sellers', {
@@ -70,9 +44,6 @@ export default function (props){
 
     }
 
-//let ID = 0 ;
-//num++;
-//console.log(num);
 
 return(
     <form id = "form1" onSubmit={(event) => {handleSubmit(event)}}>

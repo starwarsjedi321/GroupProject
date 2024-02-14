@@ -10,12 +10,11 @@ const HomeSearch = () => {
   const [search, setSearch] = useState('');
   const [hotProperties, setHotProperties] = useState([]);
 
-  useEffect(() => {
-    // Update hotProperties when Properties change
+    function setSubstring() {
+        setSearch(document.getElementById("propSearchField").value);
+    }
     let properties = Properties.properties;
-    let hotProperties = properties.slice(0, 3);
-    setHotProperties(hotProperties);
-  }, []);
+    hotProperties = properties.slice(0, 3);
 
   let renderedProps = hotProperties.map((property) => (
     <Link class="hotPropLink" to={`/view/${property.property_id}`}>
