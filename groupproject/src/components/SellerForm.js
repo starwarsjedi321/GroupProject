@@ -78,6 +78,7 @@ return(
     <form id = "form1" onSubmit={(event) => {handleSubmit(event)}}>
         <fieldset className = "wrapper">
             <legend className = "title">Register As A New Seller</legend>
+            <br />
 
             <b className='labels'>First Name</b>
                 <input 
@@ -121,6 +122,7 @@ return(
                 className='fields'
                 />
             <br/>
+            <br />
             <button className='submit' form = "form1"> Save  </button>
         </fieldset>
     </form>
