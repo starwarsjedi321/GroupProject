@@ -92,7 +92,6 @@ main {
 
 .sectionOne {
     flex: auto;
-    padding: 1em;
     text-align: center;
     align-items: center;
     display: flex;
@@ -108,7 +107,7 @@ div.footer {
     max-width: 100%; */
     padding: 1em;
     align-items: center;
-    background-color: #BFD8AF;
+    background-color: #00DEB6;
 }
 
 div.icons {
@@ -123,15 +122,16 @@ a > img {
     height: 3em;
     width: 3.2em;
     /* padding-right: 8px; */
-    filter: brightness(0) invert(0.5);
+    filter: brightness(0) invert(0);
     transition: 0.1s;
 }
 a > img:hover {
-    filter: brightness(0) invert(0);
+    filter: brightness(0) invert(0.25);
     height: 3.2em;
     width: 3.2em;
 }
 
 p {
     justify-content: center;
+    color: #262637;
 }
