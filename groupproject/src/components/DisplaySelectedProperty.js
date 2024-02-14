@@ -16,7 +16,9 @@ function DisplaySelectedProperty() {
     let propertyImgs = Object.values(getPropertyDetails[0].img);
     const renderImgTags = propertyImgs.map((imgLink, index) => {
         return <img key={index} src={imgLink} class='sliderimg'></img>
-    })
+    });
+
+    console.log(getPropertyDetails);
     return (
         <div className='carousel-container'>
             <AliceCarousel mouseTrackingEnabled>
@@ -25,8 +27,8 @@ function DisplaySelectedProperty() {
             <div className='new-home'>NEW HOME</div>
             <div className='address-info'>
                 <p>{getPropertyDetails[0].address.firstLine}</p>
-                <p>{getPropertyDetails[0].address.city}</p>
-                <p>{getPropertyDetails[0].address.postcode}</p>
+                <p>, {getPropertyDetails[0].address.city}</p>
+                <p>, {getPropertyDetails[0].address.postcode}</p>
             </div>
             <div className='price-info'>
                 <p>{'£' + formatPrice(getPropertyDetails[0].price)}</p>

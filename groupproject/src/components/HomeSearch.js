@@ -33,11 +33,8 @@ const HomeSearch = () => {
         </div>
     ));
 
-
-
-
     return (
-        <>
+        <div class="colour">
             <div class="imageContainer">
                 <img id="banner" src={HomeImg} alt="homeImg"></img>
                 <fieldset class="homeSearch">
@@ -55,13 +52,12 @@ const HomeSearch = () => {
                         </div>
                     </div>
                 </fieldset >
+                
             </div>
             <h2>Popular right now: </h2>
-            <div className="carousel">
                 <AliceCarousel mouseTracking items={renderedProps}>
                 </AliceCarousel>
-            </div>
-        </>
+        </div>
 
     )
 }
