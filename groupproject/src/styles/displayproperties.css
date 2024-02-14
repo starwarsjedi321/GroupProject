@@ -122,8 +122,10 @@
     justify-content: space-between;
     margin-top: 1em;
     flex-wrap: wrap;
-    
+    padding-right: 20%;  
+    padding-left: 20%;      
 }
+
 
 .property-card {
     display: flex;
@@ -135,6 +137,7 @@
     border: solid #00deb6;
     border-radius: 15px;
     position: relative;
+    max-width: -webkit-fill-available;
     
 }
 
