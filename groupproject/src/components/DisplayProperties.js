@@ -8,6 +8,7 @@ import heart from '../Images/heart.png';
 import phone from '../Images/phone.png';
 import sortingProperties from '../utils/sortingProperties';
 import deleteCall from '../utils/deleteCall';
+import formatPrice from '../utils/formatPrice';
 
 function DisplayProperties() {
 
@@ -19,7 +20,6 @@ function DisplayProperties() {
   let properties = sortingProperties(Properties, filterBy);
   let filteredProperties = [];
 
-  console.log(properties);
   let { query } = useParams();
 
   if (query) {
@@ -66,6 +66,10 @@ function DisplayProperties() {
                 
                 <Link className='imagelink' to={`/view/${property.property_id}`}>
                   <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
+                  <li className='empty'></li>
+                    <li className='address'>{property.address.city}</li>
+                  <li className='price'>{'£' + formatPrice(property.price)}</li>
+                  <li className='type'>{property.type}</li>
                 </Link>
                 <li className='empty'></li>
                 <div className='text-container'>

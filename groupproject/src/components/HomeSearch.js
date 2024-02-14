@@ -33,33 +33,31 @@ const HomeSearch = () => {
         </div>
     ));
 
-
-
-
     return (
-        <>
+        <div class="colour">
             <div class="imageContainer">
-                <img src={HomeImg} alt="homeImg"></img>
+                <img id="banner" src={HomeImg} alt="homeImg"></img>
                 <fieldset class="homeSearch">
 
                     <div class="searchNav">
-                        <h2>Find Your Dream Home</h2>
-                        <h4>Search properties for sale in the UK</h4>
-                        <input id="propSearchField" type="text" onChange={(event) => {
-                            setSearch(event.target.value)
-                        }}></input>
-                        <Link to={`/properties/${search}`}>
-                            <button class="searchBtn" onClick={setSubstring}>Search</button>
-                        </Link>
+                        <h2 class="searchText">Find Your Dream Home</h2>
+                        <h4 class="searchText"> Search properties for sale in the UK</h4>
+                        <div class="inputs">
+                            <input id="propSearchField" type="text" onChange={(event) => {
+                                setSearch(event.target.value)
+                            }}></input>
+                            <Link to={`/properties/${search}`}>
+                                <button class="searchBtn" onClick={setSubstring}>Search</button>
+                            </Link>
+                        </div>
                     </div>
                 </fieldset >
+                
             </div>
             <h2>Popular right now: </h2>
-            <div className="carousel">
                 <AliceCarousel mouseTracking items={renderedProps}>
                 </AliceCarousel>
-            </div>
-        </>
+        </div>
 
     )
 }

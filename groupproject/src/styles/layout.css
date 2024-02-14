@@ -11,10 +11,18 @@ html, body, #root, .App, .App-header {
 
 nav, main {
     display: flex;
+    justify-content: center;
+    
+}
+
+header {
+    border-bottom: 2px solid rgb(128, 128, 128, 0.1);
+
 }
 
 .App-header {
     flex-direction: column;
+    
 }
 
 .delete-btn {
@@ -25,6 +33,10 @@ nav, main {
 .layoutHeader {
     min-height: 10%;
     background-color: whitesmoke;
+}
+
+.colour {
+    background-color: #292950;
 }
 
 header, footer, li, a {
@@ -44,18 +56,23 @@ header, footer, li, a {
     transform: translate(-50%, -50%);
 
 }
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    background-color: white;
+}
 
 nav {
     flex:auto;
     min-height: 100%;
-    background-color: #BFD8AF;
+    background-color: WHITE;
     color: whitesmoke;
     list-style: none;
     text-decoration: none;
     gap: 1em;
     padding: 0 1em 0 1em; 
     align-items: center;
-    border-radius: 0 0 1em 1em;
     text-wrap: nowrap;
     flex-wrap: wrap;
 }
@@ -72,7 +89,7 @@ a {
     border-radius: 0.5em;
     padding: 0.5em;
     font-weight: 500;
-    color: #555D50;
+    color: #262637;
     text-decoration: none;
 }
 
@@ -84,26 +101,27 @@ li a:hover {
 
 main {
     flex: auto;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 0 15% 0 15%;
 }
 
 .sectionOne {
     flex: auto;
-    padding: 1em;
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 
 div.footer {
     display: flex;
     flex-direction: column;
-    /* max-height: 100%;
-    max-width: 100%; */
+    width: 100%;
     padding: 1em;
     align-items: center;
-    background-color: #BFD8AF;
+    background-color: white;
 }
 
 div.icons {
@@ -118,15 +136,16 @@ a > img {
     height: 3em;
     width: 3.2em;
     /* padding-right: 8px; */
-    filter: brightness(0) invert(0.5);
+    filter: brightness(0) invert(0);
     transition: 0.1s;
 }
 a > img:hover {
-    filter: brightness(0) invert(0);
+    filter: brightness(0) invert(0.25);
     height: 3.2em;
     width: 3.2em;
 }
 
-p {
+.footerText {
     justify-content: center;
+    color: #262637;
 }
