@@ -14,7 +14,11 @@ div .searchNav {
 h2,
 h4 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #262637;
+    color: white;
+}
+
+.searchText {
+    color:#262637;
 }
 
 .inputs {
