@@ -10,10 +10,7 @@ import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 import Buyerform from './components/Buyerform';
 import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
-import AboutUs from './components/AboutUs.js';
-
-
-
+import AboutUs from './components/aboutUs.js';
 import DisplaySellers from './components/DisplaySellers.js'
 
 function App() {

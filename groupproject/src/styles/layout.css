@@ -95,7 +95,6 @@ a {
 
 li a:hover {
     background-color: #E1F0DA;
-    text-decoration: underline;
     text-underline-offset: 0.3em;
 }
 

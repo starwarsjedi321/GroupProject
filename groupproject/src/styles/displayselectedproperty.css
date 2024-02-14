@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+.property-desc {
+    text-align: left;
+    font-weight: 500;
+}
+
 .carousel-container {
     display: flex;
     flex-direction: column;
@@ -9,9 +14,23 @@
     background-color: white;
 }
 
-.bed-icon, .bath-icon {
+.bed-icon, .bath-icon, .share-icon, .fav-icon {
     width: 2em;
+}
 
+.share-icon {
+    border-left: 1px solid;
+    padding-left: 30px;
+}
+
+.share-icon, .fav-icon {
+    cursor: pointer;
+}
+
+.sp-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
 }
 
 .new-home {
@@ -21,6 +40,7 @@
     width: 7em;
     background-color: #0C7A45;
     color: white;
+    margin-bottom: -3em;
     
 }
 
@@ -28,10 +48,17 @@
     display: flex;
     gap: 5px;
     font-weight: 600;
+    margin-bottom: -1em;
 }
 
 .price-info {
     display: flex;
+    font-weight: 600;
+}
+
+.date-info {
+    display: flex;
+    justify-content: flex-end;
     font-weight: 600;
 }
 
