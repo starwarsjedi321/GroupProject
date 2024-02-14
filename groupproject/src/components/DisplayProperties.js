@@ -3,6 +3,9 @@ import "../styles/displayproperties.css"
 import Properties from "../database/Properties.json";
 import { Link, useParams } from 'react-router-dom'
 import checkQuery from '../utils/checkQuery';
+import email from '../Images/email.png';
+import heart from '../Images/heart.png';
+import phone from '../Images/phone.png';
 import sortingProperties from '../utils/sortingProperties';
 import deleteCall from '../utils/deleteCall';
 
@@ -55,17 +58,26 @@ function DisplayProperties() {
           return (
             <>
               <div className='property-card'>
-                <Link to={`/view/${property.property_id}`}>
+                <Link className='imagelink' to={`/view/${property.property_id}`}>
                   <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
-                  <li>{time}</li>
-                  <li >{property.address.city}</li>
-                  <li>{"£" + property.price}</li>
-                  <li>{property.type}</li>
+                  <li className='empty'></li>
+                    <li className='address'>{property.address.city}</li>
+                  <li className='price'>{"£" + property.price}</li>
+                  <li className='type'>{property.type}</li>
                 </Link>
                 <li>
                   <input className='delete-btn' value="button for delete" name={property.id} type="button" onClick={event => { deleteCall(event.target.name) }} />
                 </li>
-              </div>
+                
+                  <ul className='icon-container'>
+                    <li className='icon' target="_blank"><img id="eamil" name="Icons" alt="email" src={email} class = "icon"></img></li>
+                    <li className='icon' target="_blank"><img id="phone" name="Icons" alt="phone" src={phone} class = "icon"></img></li>
+                    <li className='icon' target="_blank"><img id="heart" name="Icons" alt="heart" src={heart} class = "icon"></img></li>
+
+                  </ul>
+                  
+                
+                </div>
             </>
           )
         })}
