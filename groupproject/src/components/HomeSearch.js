@@ -43,8 +43,8 @@ const HomeSearch = () => {
                 <fieldset class="homeSearch">
 
                     <div class="searchNav">
-                        <h2>Find Your Dream Home</h2>
-                        <h4>Search properties for sale in the UK</h4>
+                        <h2 class="searchText">Find Your Dream Home</h2>
+                        <h4 class="searchText"> Search properties for sale in the UK</h4>
                         <div class="inputs">
                             <input id="propSearchField" type="text" onChange={(event) => {
                                 setSearch(event.target.value)
@@ -57,8 +57,10 @@ const HomeSearch = () => {
                 </fieldset >
             </div>
             <h2>Popular right now: </h2>
+            <div className="carousel">
                 <AliceCarousel mouseTracking items={renderedProps}>
                 </AliceCarousel>
+            </div>
         </>
 
     )
