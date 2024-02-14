@@ -32,6 +32,7 @@ table {
 
 th {
     text-align: left;
+    word-wrap: break-word;
 }
 
 /* th.fixed {
@@ -61,7 +62,6 @@ td {
         font-size: 0.8em;
         height: 200px;
         overflow-y: auto;
-        overflow: hidden;
         width: 100%;
 
     }

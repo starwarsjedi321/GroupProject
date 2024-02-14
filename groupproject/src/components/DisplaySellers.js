@@ -17,6 +17,7 @@ const DisplaySellers = (props) => {
 
     return (
         <div className="total">
+            
             <h1>Find A {props.user}</h1>
             <br />
             <div className = "scroll">
@@ -42,7 +43,6 @@ const DisplaySellers = (props) => {
                     )}
                 </table>
             </div>
-
             
         </div>
     );
