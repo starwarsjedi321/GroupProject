@@ -1,7 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 /* General CSS styles for the website */
 /* Common attributes are added in groups at the top */
 /* Specific attributes are added toward the end of the page */
+@media screen and (max-width: 600px) {
+    .navBar li:not(:first-child) {display: none;}
+    .navBar li.icon {
+        float: right;
+        display: block;
+    }
+}
+
+.navBar .icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .navBar.responsive li:not(:first-child, :nth-child(3)) {position: relative;}
+    /* .navBar.responsive {padding-top: 0.70em;} */
+    .navBar.responsive .icon {
+        display: block;
+        float: right;
+    }
+    .narBar.responsive li.img-container {
+        width: 38px;
+    }
+    #navBar.navBar.responsive {
+        align-content: flex-start;
+    }
+    .navBar.responsive li:not(:first-child, :nth-child(2)) {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        max-height: 10%;
+        min-width: 100%;
+    } 
+    .layoutHeader.responsive {
+        display: flex;
+        min-height: 100%;
+        }
+
+    }
+
+
 html, body, #root, .App, .App-header {
     display: flex;
     height: 100vh;
@@ -71,14 +114,18 @@ nav {
     list-style: none;
     text-decoration: none;
     gap: 1em;
-    padding: 0 1em 0 1em; 
+    padding: 0.5em 2em 0 1em; 
     align-items: center;
     text-wrap: nowrap;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-nav li:nth-child(2) {
-    flex: auto;
+nav li:nth-child(3) {
+    display: flex;
+    flex-grow: 1;
+    text-align: left;
+    width: max-content;
 }
 
 li > a {
