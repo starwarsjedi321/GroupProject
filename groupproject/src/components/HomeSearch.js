@@ -57,10 +57,8 @@ const HomeSearch = () => {
                 </fieldset >
             </div>
             <h2>Popular right now: </h2>
-            <div className="carousel">
                 <AliceCarousel mouseTracking items={renderedProps}>
                 </AliceCarousel>
-            </div>
         </>
 
     )

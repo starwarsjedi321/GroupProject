@@ -86,8 +86,8 @@ li a:hover {
 
 main {
     flex: auto;
-    background-color: whitesmoke;
-    /* padding: 0 15% 0 15%; */
+    background-color: white;
+    padding: 0 15% 0 15%;
 }
 
 .sectionOne {
