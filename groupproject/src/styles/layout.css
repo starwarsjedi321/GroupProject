@@ -44,6 +44,10 @@
 
     }
 
+.fa {
+    color: black;
+}
+
 
 html, body, #root, .App, .App-header {
     display: flex;
@@ -146,6 +150,7 @@ li a:hover {
     text-underline-offset: 0.3em;
 }
 
+
 main {
     flex: auto;
     background-color: white;
@@ -179,14 +184,14 @@ div.icons {
     width: 3.2em;
 } 
 
-a > img {
+div.icons a > img {
     height: 3em;
     width: 3.2em;
     /* padding-right: 8px; */
     filter: brightness(0) invert(0);
     transition: 0.1s;
 }
-a > img:hover {
+div.icons a > img:hover {
     filter: brightness(0) invert(0.25);
     height: 3.2em;
     width: 3.2em;
