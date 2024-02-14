@@ -13,11 +13,9 @@ const HomeSearch = () => {
 
     function setSubstring() {
         setSearch(document.getElementById("propSearchField").value);
-        console.log(search);
     }
     let properties = Properties.properties;
     let hotProperties = properties.slice(0, 3);
-    console.log(hotProperties);
 
     let renderedProps = [];
 
@@ -55,8 +53,10 @@ const HomeSearch = () => {
                 
             </div>
             <h2>Popular right now: </h2>
-                <AliceCarousel mouseTracking items={renderedProps}>
-                </AliceCarousel>
+            
+            <AliceCarousel mouseTracking items={renderedProps}>
+            </AliceCarousel>
+            
         </div>
 
     )

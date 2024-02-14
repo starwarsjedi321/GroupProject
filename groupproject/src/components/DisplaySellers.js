@@ -17,15 +17,16 @@ const DisplaySellers = (props) => {
 
     return (
         <div className="total">
+            
             <h1>Find A {props.user}</h1>
             <br />
             <div className = "scroll">
                 <table  name="sellerData">
                     <tr>
                         {/* <th>{props.user}: </th> */}
-                        <th>Forename: </th>
-                        <th>Surname: </th>
-                        <th className='smallScreen' >Email: </th>
+                        <th>Forename </th>
+                        <th>Surname </th>
+                        <th className='smallScreen' >Email </th>
                     </tr>
 
                     
@@ -42,7 +43,6 @@ const DisplaySellers = (props) => {
                     )}
                 </table>
             </div>
-
             
         </div>
     );
