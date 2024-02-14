@@ -11,7 +11,7 @@ import Buyerform from './components/Buyerform';
 import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
 import SignIn from './components/signIn.js';
-import AboutUs from './components/AboutUs.js';
+import AboutUs from './components/aboutUs.js';
 
 
 
