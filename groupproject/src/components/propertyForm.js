@@ -1,6 +1,8 @@
 import { React } from 'react';
 import { useState } from 'react';
 import Properties from '../database/Properties.json';
+import '../styles/form.css';
+
 
 export default () => {
 
