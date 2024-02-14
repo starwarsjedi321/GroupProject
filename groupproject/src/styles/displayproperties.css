@@ -77,27 +77,40 @@
 */
 
 .empty {
-    width: 100px;
+    width: 100%;
     text-align: center;
+
 }
 
 .property-item {
-    width: 500px;
+    width: 50%;
 }
 
 .address {
-    width: 100px;
+    width: 30%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-left: 0;
 }
 
 .price {
-    width: 100px;
-    text-align: center;
+    width: 30%;
+    text-align:end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-left: 0;
 }
 
 .type {
     width: 100px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-left: 0;
 }
 
 
@@ -119,6 +132,7 @@
     text-decoration: none; 
     border: solid rgb(0, 0, 0, 0.1);
     border-radius: 15px;
+    position: relative;
     
 }
 
@@ -132,7 +146,6 @@
     max-width: 100%; /* Adjust this as needed to fit the image properly within the card */
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px;
-    border-radius: 5px;
     vertical-align: center;
     
 }
@@ -140,15 +153,18 @@
 .property-text {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* This centers the text vertically if there's space */
+    justify-content: center; 
+    margin-left: 0;
     
 }
 
 .property-card li {
     list-style-type: none;
     margin-top: 0.8em;
-    
-    
+
+}
+.property-card:hover{
+    background-color:rgb(232, 255, 255)
 }
 .property-card icon-container {
     margin-top: auto; 
@@ -172,24 +188,91 @@
     width: 20px; /* Example size, adjust as needed */
     height: 20px;
     object-fit: scale-down;
-   
-
+    margin-left: 10px;
 
     }
+.icon-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-left: auto; 
+}
 
 @media screen and (max-width: 768px){
     .property-card{
         flex-direction: column;
+        align-items: center;
     }
-    .property-img, .property-text {
-        width: 100%; 
+    .property-img .property-card {
+        width: 50%; 
+        margin-top: 10rem;
+        vertical-align: center;
+        align-items: center;
+        position: absolute;
+        transform: translate(-20%, -20%);
+        font-size: 18px;
+        
+
     }
     .property-text {
-        
         margin-top: 1rem;
+        text-align: center;
+        font-size: 18px;
+    }
+    .address {
+        width: 30%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-left: 0;
+        font-size: 18px;
     }
     
+    .price {
+        width: 30%;
+        text-align:end;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-left: 0;
+        font-size: 18px;
+    }
     
+    .type {
+        width: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-left: 0;
+        font-size: 13px;
+    }
+   
+    .icon-container {
+        display: flex;
+        justify-content: flex-end; 
+        margin-left: 0;
+        flex-direction: row;
+        padding: 0%;
+        max-width: -webkit-fill-available;
+        width: 100%;
+
+    }
+    #heart {
+        /* margin-left: 700%;  */
+        display: flex;
+
+    } 
+    #phone,  #eamil {
+        /* margin-right: 200px;  */
+        align-items: center;
+
+    }
+    
+    #spacer{
+        width: 600%;
+    }
 }
+
 
 

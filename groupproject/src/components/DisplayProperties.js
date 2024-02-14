@@ -60,11 +60,11 @@ function DisplayProperties() {
               <div className='property-card'>
                 <Link className='imagelink' to={`/view/${property.property_id}`}>
                   <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
-                  <li className='empty'></li>
+                </Link>
+                <li className='empty'></li>
                     <li className='address'>{property.address.city}</li>
                   <li className='price'>{"£" + property.price}</li>
                   <li className='type'>{property.type}</li>
-                </Link>
                 <li>
                   <input className='delete-btn' value="button for delete" name={property.id} type="button" onClick={event => { deleteCall(event.target.name) }} />
                 </li>
@@ -72,6 +72,7 @@ function DisplayProperties() {
                   <ul className='icon-container'>
                     <li className='icon' target="_blank"><img id="eamil" name="Icons" alt="email" src={email} class = "icon"></img></li>
                     <li className='icon' target="_blank"><img id="phone" name="Icons" alt="phone" src={phone} class = "icon"></img></li>
+                    <li className='icon' id="spacer"></li>
                     <li className='icon' target="_blank"><img id="heart" name="Icons" alt="heart" src={heart} class = "icon"></img></li>
 
                   </ul>
