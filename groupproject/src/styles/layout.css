@@ -58,7 +58,6 @@ html, body, #root, .App, .App-header {
 
 nav, main {
     display: flex;
-    justify-content: center;
     
 }
 
@@ -173,6 +172,8 @@ div.footer {
     padding: 1em;
     align-items: center;
     background-color: white;
+    padding-top: 5em;
+    border-top: 2px solid rgb(128, 128, 128, 0.1); ;
 }
 
 div.icons {
