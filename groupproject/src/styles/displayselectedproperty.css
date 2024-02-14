@@ -2,13 +2,16 @@
     width: 100%;
 }
 
-
-
 .carousel-container {
     display: flex;
     flex-direction: column;
     margin-top: 6em;
     background-color: white;
+}
+
+.bed-icon, .bath-icon {
+    width: 2em;
+
 }
 
 .new-home {
@@ -34,8 +37,12 @@
 
 .property-info {
     display: flex;
+    align-items: center;
+    padding: 1em;
     gap: 20px;
-
+    border-top: 2px solid rgb(222,222,226);
+    border-bottom: 2px solid rgb(222,222,226);
+    font-weight: 600;
 }
 
 /* .alice-carousel__prev-btn,
