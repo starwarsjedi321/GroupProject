@@ -30,6 +30,11 @@ function DisplayProperties() {
       };
     });
   };
+  const [iconClicked,setIconClicked] = useState(false);
+  const handleIconClick = () => {
+    console.log("hi")
+    setIconClicked(!iconClicked);
+  }
 
   const chosenArray = filteredProperties.length === 0 ? Properties.properties : filteredProperties;
   const totalSearchResult = filteredProperties.length === 0 ? Properties.properties.length : filteredProperties.length;
@@ -58,24 +63,24 @@ function DisplayProperties() {
           return (
             <>
               <div className='property-card'>
+                
                 <Link className='imagelink' to={`/view/${property.property_id}`}>
                   <li key={property.property_id} className='property-item'>{<img className='property-img' src={property.img.thumbnail}></img>}</li>
                 </Link>
                 <li className='empty'></li>
-                    <li className='address'>{property.address.city}</li>
-                  <li className='price'>{"£" + property.price}</li>
-                  <li className='type'>{property.type}</li>
+                <div className='text-container'>
+                <li className='price'>{"£" + property.price}</li>
+                <li className='address'>{property.address.city}</li>
+                <li className='type'>{property.type}</li>
+                  </div>
                 <li>
                   <input className='delete-btn' value="button for delete" name={property.id} type="button" onClick={event => { deleteCall(event.target.name) }} />
                 </li>
-                
-                  <ul className='icon-container'>
-                    <li className='icon' target="_blank"><img id="eamil" name="Icons" alt="email" src={email} class = "icon"></img></li>
-                    <li className='icon' target="_blank"><img id="phone" name="Icons" alt="phone" src={phone} class = "icon"></img></li>
-                    <li className='icon' id="spacer"></li>
-                    <li className='icon' target="_blank"><img id="heart" name="Icons" alt="heart" src={heart} class = "icon"></img></li>
-
-                  </ul>
+                 {console.log(iconClicked)}
+                  <div className='icon-container'>
+                    <li target="_blank"><img className={`icon ${iconClicked ? 'icon-clicked' : ''}`}onClick={handleIconClick} id="heart" name="Icons" alt="heart" src={heart} class = "icon"></img></li>
+                  
+                  </div>
                   
                 
                 </div>

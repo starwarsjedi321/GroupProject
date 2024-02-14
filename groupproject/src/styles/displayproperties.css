@@ -196,6 +196,11 @@
     justify-content: flex-end; 
     margin-left: auto; 
 }
+.icon-clicked{
+    color: blueviolet;
+    width: 1px
+
+}
 
 @media screen and (max-width: 768px){
     .property-card{
@@ -218,7 +223,7 @@
         text-align: center;
         font-size: 18px;
     }
-    .address {
+    .address,.type {
         width: 30%;
         text-align: center;
         display: flex;
@@ -238,15 +243,6 @@
         font-size: 18px;
     }
     
-    .type {
-        width: 100px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        margin-left: 0;
-        font-size: 13px;
-    }
    
     .icon-container {
         display: flex;
