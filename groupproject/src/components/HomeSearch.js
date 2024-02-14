@@ -8,7 +8,7 @@ import '../styles/homeSearch.css';
 
 const HomeSearch = () => {
   const [search, setSearch] = useState('');
-  const [hotProperties, setHotProperties] = useState([]);
+  let [hotProperties, setHotProperties] = useState([]);
 
     function setSubstring() {
         setSearch(document.getElementById("propSearchField").value);

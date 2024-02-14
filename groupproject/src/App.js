@@ -10,7 +10,6 @@ import DisplaySelectedProperty from './components/DisplaySelectedProperty.js';
 import Buyerform from './components/Buyerform';
 import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
-import AboutUs from './components/aboutUs.js';
 import SignIn from './components/signIn.js';
 import AboutUs from './components/aboutUs.js';
 
