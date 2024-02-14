@@ -28,6 +28,7 @@ h4 {
     align-items: stretch;
     justify-content: center;
 }
+
 a {
     max-width: 100%;
 }
@@ -50,6 +51,8 @@ a {
     margin-left: -3000px;
     padding-right: 3000px;
     margin-right: -3000px;
+    overflow: visible;
+    overflow-block:visible;
 }
 
 .imageContainer {
@@ -66,7 +69,6 @@ a {
     width: 100%;
     height: max-content;
     z-index: -1;
-
 }
 
 .homeSearch {
@@ -77,6 +79,10 @@ a {
 }
 
 
+.hotPropInfo, .popularHeading {
+    color: #262637;
+}
+
 .alice-carousel {
     width: 50%;
     padding: 5px;
@@ -84,6 +90,11 @@ a {
 
 .alice-carousel__next-btn {
     text-align: left;
+    color: white;
+}
+
+.alice-carousel__prev-btn {
+    color: white;
 }
 
 .carousel-item {
