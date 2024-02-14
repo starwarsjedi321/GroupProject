@@ -13,11 +13,9 @@ const HomeSearch = () => {
 
     function setSubstring() {
         setSearch(document.getElementById("propSearchField").value);
-        console.log(search);
     }
     let properties = Properties.properties;
     let hotProperties = properties.slice(0, 3);
-    console.log(hotProperties);
 
     let renderedProps = [];
 
