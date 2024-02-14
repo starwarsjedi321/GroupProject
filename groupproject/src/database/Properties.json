@@ -640,8 +640,8 @@
       },
       "price": 1000000000,
       "type": "Detached",
-      "bedrooms": 0,
-      "bathrooms": 0,
+      "bedrooms": 20,
+      "bathrooms": 7,
       "garden": false,
       "timeUploaded": "Friday, 16 February 2024 at 11:21:53",
       "id": "dbbc"
