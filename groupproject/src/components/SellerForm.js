@@ -59,6 +59,7 @@ return(
                     onChange={(event => setfirstName(event.target.value))} 
                     required="required"
                     className='fields'
+                    placeholder="John" 
                 />
             <br/>
 
@@ -70,6 +71,7 @@ return(
                  onChange={(event => setlastName(event.target.value))} 
                 required="required"
                 className='fields'
+                placeholder="Doe" 
                 />
             <br/>
 
@@ -81,6 +83,7 @@ return(
                 onChange={(event => setemail(event.target.value))} 
                 required="required"
                 className='fields'
+                placeholder="johndoe@gmail.com" 
                 />
             <br/>
             <b className='labels'>Telephone</b>
@@ -91,6 +94,7 @@ return(
                 onChange={(event => settelephone(event.target.value))} 
                 required="required"
                 className='fields'
+                placeholder="01234567891" 
                 />
             <br/>
             <br />

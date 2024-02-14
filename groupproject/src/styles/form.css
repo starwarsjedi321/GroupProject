@@ -6,7 +6,7 @@
     flex-direction: column;
     border-radius: 25px;
     border-width: 3px;
-    border-color: #a5b39d;
+    border-color: #00DEB6;
     border-style: solid;
     margin: 0;
     margin-bottom: 30px;
@@ -30,6 +30,7 @@
     border-color: #e1f0da;
     border-width: 1px;
     border-radius: 10px;
+    padding-left: 1%;
 }
 
 .submit {
