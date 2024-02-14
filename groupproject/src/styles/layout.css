@@ -15,8 +15,6 @@
     display: none;
 }
 
-
-
 @media screen and (max-width: 600px) {
     .navBar.responsive li:not(:first-child, :nth-child(3)) {position: relative;}
     /* .navBar.responsive {padding-top: 0.70em;} */
@@ -58,7 +56,6 @@ html, body, #root, .App, .App-header {
 
 nav, main {
     display: flex;
-    justify-content: center;
     
 }
 
@@ -144,8 +141,18 @@ a {
     text-decoration: none;
 }
 
-li a:hover {
+nav > li a:hover {
     background-color: #E1F0DA;
+    text-underline-offset: 0.3em;
+}
+div.alice-carousel {
+    margin: 0;
+    padding: 10% 20% 0 20%;
+    border-radius: 1em;
+}
+li a:hover {
+    background-color: #00deb6;
+    text-decoration: underline;
     text-underline-offset: 0.3em;
 }
 
@@ -173,6 +180,7 @@ div.footer {
     padding: 1em;
     align-items: center;
     background-color: white;
+    padding-top: 5em;
 }
 
 div.icons {
