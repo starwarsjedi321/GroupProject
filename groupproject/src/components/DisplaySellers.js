@@ -24,9 +24,9 @@ const DisplaySellers = (props) => {
                 <table  name="sellerData">
                     <tr>
                         {/* <th>{props.user}: </th> */}
-                        <th>Forename: </th>
-                        <th>Surname: </th>
-                        <th className='smallScreen' >Email: </th>
+                        <th>Forename </th>
+                        <th>Surname </th>
+                        <th className='smallScreen' >Email </th>
                     </tr>
 
                     

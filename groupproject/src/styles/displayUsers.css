@@ -1,38 +1,42 @@
 div.total {
-    
-    
-    
     width: 100%;
     align-items: center;
     max-width: 100%;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
 
 }
 
 div.scroll {
-    
     display: flex;
     justify-content: center;
-
-
+    position: relative;
+    border: 3px solid;
+    border-radius: 25px;
+    border-color: #a5b39d;
+    background-color: whitesmoke;
+    max-width: -webkit-fill-available;
 }
 
 table {
-    
+    border-radius: 25px;
 
     width: 100%;
-    border: 5px solid;
-    border-radius: 25px;
-    border-color: #a5b39d;
     align-items: center;
     padding: 2%;
     table-layout: fixed;
     margin: 0;
+    background-color: whitesmoke;
     
 }
 
 th {
     text-align: left;
     word-wrap: break-word;
+    position: sticky;
+    top: 2%;
+    background-color: whitesmoke;
+    
 }
 
 /* th.fixed {
@@ -59,8 +63,8 @@ td {
         /* display: none; */
     
     .scroll {
-        font-size: 0.8em;
-        height: 200px;
+        font-size: 0.75em;
+        height: 300px;
         overflow-y: auto;
         width: 100%;
 
