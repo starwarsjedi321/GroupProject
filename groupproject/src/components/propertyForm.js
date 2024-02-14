@@ -77,47 +77,68 @@ export default () => {
     }
 
     return (
-        <fieldset>
-            <legend>Register Property</legend>
-            <form onSubmit={onSubmit}>
-                <div>
-                <p>Address: </p>
-                <label>First line: <input placeholder="First line of address" required onChange={event => setFirstLine(event.target.value)} name="firstLine" value={firstLine} />
-                    *</label>
-                <br></br>
-                <label>City: <input placeholder="Enter City" required name="city" onChange={event => setCity(event.target.value)} value={city} />
-                    *</label>
-                <br></br>
-                <label>Postcode: <input placeholder="Enter a valid Postcode" required name="postcode" onChange={event => setPostCode(event.target.value)} value={postCode} />
-                    *</label></div>
-                <br></br>
-                <label>Price: <input required placeholder="Enter property price" onChange={event => setPrice(event.target.value)} value={price} />
-                    *</label>
-                <br></br>
-                <label>Description: <input placeholder="Enter a description" type="text" name="description" onClick={event => setDescription(event.target.value)}/>
-                </label>
-                <br></br>
-                <label>Type: </label>
-                <input required placeholder="Property type" type="search" list="typeList" onChange={event => setType(event.target.value)} value={type} />*
-                <datalist id="typeList">
-                    <option>Detachted</option>
-                    <option>Semi-detached</option>
-                    <otion>Terrace</otion>
-                    <option>Flat</option>
-                    <option>Bungalow</option>
-                </datalist>
-                <br></br>
-                <label>Bedrooms: <input placeholder="Enter No of bedrooms" required name="bedrooms" onChange={event => setBedroom(event.target.value)} value={bedroom} />
-                    *</label>
-                <br></br>
-                <label>Bathrooms: <input placeholder="Enter No of bathrooms" required name="bathrooms" onChange={event => setBathroom(event.target.value)} value={bathroom} />
-                    *</label>
-                <br></br>
-                <label>Garden: <input type="checkbox" name="garden" onClick={event => setGarden(event.target.checked)} />
-                </label>
-                <br></br>
-                <button type="submit">Register</button>
+        
+            
+            <form id="form1" onSubmit={onSubmit}>
+                <fieldset className='wrapper'>
+                    <legend className='title'>Register Property</legend>
+                    <p>Address: </p>
+                    <b className='labels'>First Line: </b>
+                    <br />
+                    <input className="fields" type="text" placeholder="First line of address" required onChange={event => setFirstLine(event.target.value)} name="firstLine" value={firstLine} />
+                    <br></br>
+
+                    <b className='labels'>City:</b>
+                    <br />
+                    <input className="fields" placeholder="Enter City" required name="city" onChange={event => setCity(event.target.value)} value={city} />
+                    <br></br>
+
+                    <b className='labels'>Postcode:</b>
+                    <br />
+                    <input className="fields" placeholder="Enter a valid Postcode" required name="postcode" onChange={event => setPostCode(event.target.value)} value={postCode} />
+                    <br></br>
+                    <br />
+                    
+                    <b className='labels'>Price: </b>
+                    <br/>
+                    <input className="fields" required placeholder="Enter property price" onChange={event => setPrice(event.target.value)} value={price} />
+                    <br></br>
+
+                    <b className='labels'>Description: </b> 
+                    <br />
+                    <input className="fields" placeholder="Enter a description" type="text" name="description" onClick={event => setDescription(event.target.value)}/>
+                    <br></br>
+
+
+                    <b className='labels'>Type: </b>
+                    <input className="fields" required placeholder="Property type" type="search" list="typeList" onChange={event => setType(event.target.value)} value={type} />*
+                    <datalist id="typeList">
+                        <option>Detachted</option>
+                        <option>Semi-detached</option>
+                        <otion>Terrace</otion>
+                        <option>Flat</option>
+                        <option>Bungalow</option>
+                    </datalist>
+                    <br></br>
+
+                    <b className='labels'>Bedrooms: </b>
+                    <input className="fields" placeholder="Enter No of bedrooms" required name="bedrooms" onChange={event => setBedroom(event.target.value)} value={bedroom} />
+                    <br></br>
+
+                    <b className='labels'>Bathrooms: </b>
+                    <br />
+                    <input className="fields" placeholder="Enter No of bathrooms" required name="bathrooms" onChange={event => setBathroom(event.target.value)} value={bathroom} />
+                    <br></br>
+
+                    <b className='labels'>Garden: </b>
+                    <br />
+                    <input className="fields" type="checkbox" name="garden" onClick={event => setGarden(event.target.checked)} />
+                    <br></br>
+
+                    <button type="submit">Register</button>
+                    <br />
+                </fieldset>
             </form>
-        </fieldset>
+        
     )
 }
