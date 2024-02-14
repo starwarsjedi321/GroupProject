@@ -11,6 +11,10 @@ import Buyerform from './components/Buyerform';
 import HomeSearch from './components/HomeSearch.js'
 import DisplayProperties from './components/DisplayProperties';
 import AboutUs from './components/aboutUs.js';
+import SignIn from './components/signIn.js';
+
+
+
 import DisplaySellers from './components/DisplaySellers.js'
 
 function App() {
@@ -46,7 +50,7 @@ function App() {
             <Route path='view/:property_id' element={<DisplaySelectedProperty/>}></Route>
             <Route
             path="sign-in"
-            element={<>sign in</>}
+            element={<SignIn/>}
             />
           </Route>
         </Routes>
