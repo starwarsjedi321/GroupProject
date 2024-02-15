@@ -83,6 +83,11 @@ a {
     color: #262637;
 }
 
+.popularHeading {
+    margin-bottom: -5em;
+    margin-top: 3em;
+}
+
 .alice-carousel {
     width: 50%;
     padding: 5px;
