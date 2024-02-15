@@ -231,6 +231,34 @@
     align-items: bottom;
 }
 
+
+
+
+.filter-test li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.sort{
+    gap: 0.5em;
+    align-items: center;
+    text-align: center;
+}
+
+.results {
+    text-align: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 768px){
 
     .empty{

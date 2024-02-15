@@ -57,8 +57,8 @@ function DisplayProperties() {
         : <h1>{`Available Properties`}</h1>
       }
       <ul className='filter-list'>
-        <li>{`${totalSearchResult} results`}</li>
-        <li>Sort:
+        <li className='results'>{`${totalSearchResult} results`}</li>
+        <li className='sort'>Sort:
           <select onChange={(event) => { setFilter(event.target.value) }}>
             <option value="Highest Price">Highest Price</option>
             <option value="Lowest Price">Lowest Price</option>
