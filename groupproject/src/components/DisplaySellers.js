@@ -22,7 +22,7 @@ const DisplaySellers = (props) => {
             <br />
             <div className = "scroll">
                 <table  name="sellerData">
-                    <tr>
+                    <tr className='headingHover'>
                         {/* <th>{props.user}: </th> */}
                         <th>Forename </th>
                         <th>Surname </th>

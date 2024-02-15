@@ -53,19 +53,19 @@ export default function(props){
                     <legend className="title">Register As A New Buyer</legend>
                     <br></br>
                     <b className='labels'>First Name</b>
-                    <input className='fields' type='text' value={firstName} name='firstName' onChange={(event => setFirstName(event.target.value))} required="required"></input>
+                    <input placeholder="John" className='fields' type='text' value={firstName} name='firstName' onChange={(event => setFirstName(event.target.value))} required="required"></input>
                     <br/>
                     
                     <b className='labels'>Last Name</b>
-                    <input className='fields' type='text' name='lastName' value={lastName} onChange={(event => setLastName(event.target.value))} required="required"></input>
+                    <input  placeholder="Doe" className='fields' type='text' name='lastName' value={lastName} onChange={(event => setLastName(event.target.value))} required="required"></input>
                     <br />
 
                     <b className='labels'>Email</b>
-                    <input className='fields' type='email' name='email' value={email} onChange={(event => setEmail(event.target.value))} required="required"></input>
+                    <input  placeholder="johndoe@gmail.com" className='fields' type='email' name='email' value={email} onChange={(event => setEmail(event.target.value))} required="required"></input>
                     <br />
 
                     <b className='labels'>Telephone</b>
-                    <input className='fields' type='text' name='telephone' value={telephone} onChange={(event => setTelephone(event.target.value))} required="required"></input>
+                    <input  placeholder="01234567891" className='fields' type='text' name='telephone' value={telephone} onChange={(event => setTelephone(event.target.value))} required="required"></input>
                     <br />
                     <br />
 

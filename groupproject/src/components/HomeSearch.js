@@ -5,6 +5,8 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import Properties from '../database/Properties.json';
 import HomeImg from '../Images/homeImage.jpg';
 import '../styles/homeSearch.css';
+import formatPrice from '../utils/formatPrice';
+
 
 const HomeSearch = () => {
   const [search, setSearch] = useState('');
@@ -22,7 +24,7 @@ const HomeSearch = () => {
       <div className="carousel-container">
         <img className="propImg" src={property.img.thumbnail} alt={property.address.firstLine} />
         <h2 class="hotPropInfo">{property.address.firstLine}, {property.address.city}</h2>
-          <p class="hotPropInfo">£{property.price}</p>
+          <p class="hotPropInfo">{'£' + formatPrice(property.price)}</p>
       </div>
     </div>
     </Link>
