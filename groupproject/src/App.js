@@ -14,7 +14,6 @@ import SignIn from './components/signIn.js';
 import AboutUs from './components/AboutUs.js';
 
 
-
 import DisplaySellers from './components/DisplaySellers.js'
 
 function App() {
