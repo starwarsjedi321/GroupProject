@@ -15,6 +15,18 @@
     display: none;
 }
 
+.property-info {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    gap: 20px;
+    border-top: 2px solid rgb(222,222,226);
+    border-bottom: 2px solid rgb(222,222,226);
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+
 @media screen and (max-width: 768px) {
     .navBar.responsive li:not(:first-child, :nth-child(3)) {position: relative;}
     /* .navBar.responsive {padding-top: 0.70em;} */
