@@ -137,7 +137,7 @@
     border: solid #00deb6;
     border-radius: 15px;
     position: relative;
-    max-width: -webkit-fill-available;
+    width: -webkit-fill-available;
     
 }
 
