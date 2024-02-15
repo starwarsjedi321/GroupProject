@@ -15,7 +15,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .navBar.responsive li:not(:first-child, :nth-child(3)) {position: relative;}
     /* .navBar.responsive {padding-top: 0.70em;} */
     .navBar.responsive .icon {
@@ -60,7 +60,7 @@ nav, main {
 }
 
 header {
-    border-bottom: 2px solid rgb(128, 128, 128, 0.1);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
 
 }
 
