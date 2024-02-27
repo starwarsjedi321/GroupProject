@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
+                bat 'cd groupproject'
                 bat 'npm start'
             }
         }
