@@ -12,7 +12,8 @@ pipeline {
                 steps {
                     parallel(
                          a:  {
-                        bat 'npx json-server src/database/properties.json'
+                        bat 'npx json-server --watch src/database/properties.json --port
+                        8000'
                     },
                     )
                 }
