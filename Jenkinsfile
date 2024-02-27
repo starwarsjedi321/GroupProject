@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                bat 'npm run start'
+                bat 'npm start'
             }
         }
         stage ('Deploy') {
