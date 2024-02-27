@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent any
         stages {
             stage('build') {
                 steps {
@@ -10,9 +10,11 @@ pipeline {
 
             stage('run-parallel-server') {
                 steps {
-                    a:  {
-                        bat 'npx json-server properties.json'
-                    }
+                    parallel(
+                         a:  {
+                        bat 'npx json-server src/database/properties.json'
+                    },
+                    )
                 }
             }
 
